@@ -1,0 +1,4 @@
+2025-07-07 22:42:41,368 - INFO - --- Starting Job: Scrape 'Characters' for game 'dst' ---
+2025-07-07 22:42:41,368 - INFO - Discovering links from: https://dontstarve.fandom.com/wiki/Characters using selector '.gallery-image-wrapper > a'
+2025-07-07 22:42:41,368 - INFO - Setting up Selenium WebDriver...
+2025-07-07 22:42:45,741 - INFO - WebDriver setup complete.

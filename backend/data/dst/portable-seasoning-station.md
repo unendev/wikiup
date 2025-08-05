@@ -1,0 +1,216 @@
+---
+game_version: dst
+category: Uncategorized
+source_url: https://dontstarve.fandom.com/wiki/Portable_Seasoning_Station
+---
+
+*Exclusive to:* Don't Starve Together
+
+## Portable Seasoning Station
+
+* Structure
+* Item
+
+Structure
+
+Item
+
+"Spicing your meals is very in season."
+
+Icons
+
+| Inventory/Crafting | Map |
+| --- | --- |
+|  |  |
+
+Crafting
+
+| [Recipe](/wiki/Crafting "Crafting") |
+| --- |
+| Gold Nugget**×2** Cut Stone**×3** Twigs**×6** |
+
+| [Filter](/wiki/Filters "Filters") | [Tier](/wiki/Crafting "Crafting") |
+| --- | --- |
+| Cooking Filter Warly Filter | Always available |
+
+## Properties
+
+### Stacks up to
+
+Does not stack
+
+Perk
+
+|  |
+| --- |
+| Portable, spices food. |
+
+[Code](/wiki/Console "Console")
+
+|  |
+| --- |
+| `"portablespicer_item"` |
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**This will spice things up.**”**
+
+–[Wilson](/wiki/Wilson "Wilson"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**All that work better be worth it.**”**
+
+–[Willow](/wiki/Willow "Willow"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Wolfgang will turn grinder with his mighty muscles!**”**
+
+–[Wolfgang](/wiki/Wolfgang "Wolfgang"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**If only it could spice up my life.**”**
+
+–[Wendy](/wiki/Wendy "Wendy"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**YOU WASTE YOUR TALENTS WORKING FOR FLESHSACKS**”**
+
+–[WX-78](/wiki/WX-78 "WX-78"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**It'll need some elbow grease.**”**
+
+–[Wickerbottom](/wiki/Wickerbottom "Wickerbottom"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**I'm not usually one for fancy spices.**”**
+
+–[Woodie](/wiki/Woodie "Woodie"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Ah. The daily grind.**”**
+
+–[Maxwell](/wiki/Maxwell "Maxwell"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**A förmidable weapön against bad meals.**”**
+
+–[Wigfrid](/wiki/Wigfrid "Wigfrid"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Oh! Can we grind it, please?**”**
+
+–[Webber](/wiki/Webber "Webber"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Fresh spices! Oh, how I have missed you!**”**
+
+–[Warly](/wiki/Warly "Warly"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**What's it do?**”**
+
+–[Wormwood](/wiki/Wormwood "Wormwood"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Probably a whole lot of interesting gears in there.**”**
+
+–[Winona](/wiki/Winona "Winona"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Grind, grind, grind away.**”**
+
+–[Wortox](/wiki/Wortox "Wortox"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Put flavor bits on foodthings!**”**
+
+–[Wurt](/wiki/Wurt "Wurt"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**A little extra flavour never hurt anyone.**”**
+
+–[Walter](/wiki/Walter "Walter"), examining an empty portable seasoning station.
+
+![](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)
+
+**“**Some flavor might be nice, but is it worth taking the extra time?**”**
+
+–[Wanda](/wiki/Wanda "Wanda"), examining an empty portable seasoning station.
+
+The **Portable Seasoning Station** is a craftable [Item](/wiki/Item "Item") exclusive to [Warly](/wiki/Warly "Warly") in *[Don't Starve Together](/wiki/Don%27t_Starve_Together "Don't Starve Together")*. It is found in the [Cooking Filter](/wiki/Cooking_Filter "Cooking Filter"), and requires two [Gold Nuggets](/wiki/Gold_Nugget "Gold Nugget"), three [Cut Stones](/wiki/Cut_Stone "Cut Stone") and six [Twigs](/wiki/Twigs "Twigs") to craft.
+
+## Usage[]
+
+Once the Portable Seasoning Station has been deployed, it allows the combination of [Crock Pot Dishes](/wiki/Crock_Pot "Crock Pot") with [Seasonings](/wiki/Seasonings_Tab "Seasonings Tab"). It will not season the [Milkmade Hat](/wiki/Milkmade_Hat "Milkmade Hat"), [Wet Goop](/wiki/Wet_Goop "Wet Goop"), or [Amberosia](/wiki/Amberosia "Amberosia"), but it will season [Beefalo Treats](/wiki/Beefalo_Treats "Beefalo Treats"), [Steamed Twigs](/wiki/Steamed_Twigs "Steamed Twigs"), [Monster Lasagna](/wiki/Monster_Lasagna "Monster Lasagna"), and every other Crock Pot dish. The seasoning process takes about 3 seconds.
+
+Just as other survivors cannot use the [Portable Crock Pot](/wiki/Portable_Crock_Pot "Portable Crock Pot"), they cannot use this structure either.
+
+## Gallery[]
+
+Portable Seasoning Station Burnt.png (21 KB)
+
+Unused animation for a burnt Portable Seasoning Station. In the game, the structure immediately collapses.
+
+Warly Character Update Promo.gif (2.01 MB)
+
+The Portable Seasoning Station featured in a promotional animation for Warly's Character Update.
+
+RWP 248 Warly's Cookware.png (584 KB)
+
+Earlier concepts for Warly's cookware from *Rhymes With Play* #248.
+
+|  |  |
+| --- | --- |
+| ***Don't Starve Together* [Craftable](/wiki/Crafting "Crafting") Items** [view](/wiki/Template:Craftable_Items_and_Structures_on_DST "Template:Craftable Items and Structures on DST") | |
+| **Survivor Items Filter [Survivor Items](/wiki/Survivor_Items_Filter "Survivor Items Filter")** | * [Wilson](#) * [Willow](#) * [Wolfgang](#) * [Wendy](#) * [WX-78](#) * [Wickerbottom](#) * [Woodie](#) * [Wes](#) * [Maxwell](#)  LogTwigsFlintRocksBlue GemRed GemPurple GemOrange GemYellow GemGreen GemIridescent GemMeatMorselGold NuggetNitreMarbleCut StoneMoon RockBeard HairBeefalo WoolBone ShardsHound's ToothManurePure HorrorDreadstoneNightmare FuelInfused Moon ShardPure Brilliance  Willow's LighterBernie  Mighty GymDumbbellGolden DumbbellMarbellGembellThermbellFirebellIcebellCoaching Whistle  Abigail's Flower Sisturn Revenant Restorative Spectral Cure-All Unyielding Draught Distilled Vengeance Nightshade Nostrum Vigor Mortis  Hardy CircuitSuper-Hardy CircuitProcessing CircuitSuper-Processing CircuitBeanbooster CircuitChorusbox CircuitGastrogain CircuitSuper-Gastrogain CircuitAcceleration CircuitSuper-Acceleration CircuitThermal CircuitRefrigerant CircuitElectrification CircuitOptoelectronic CircuitIllumination CircuitCircuit ExtractorBio Scanalyzer  BookcaseBirds of the WorldHorticulture, AbridgedApplied SilvicultureSleepytime StoriesThe End is NighOn TentaclesThe Angler's Survival GuidePyrokinetics ExplainedOvercoming ArachnophobiaTempering TemperaturesLux AeternaLux Aeterna ReduxPractical Rain RitualsLunar GrimoireApicultural NotesThe Everything Encyclopedia  Kitschy Goose IdolKitschy Beaver IdolKitschy Moose IdolTreeguard IdolBoardsHardwood HatWooden Walking Stick  Pile o' BalloonsBalloonSpeedy BalloonParty BalloonInflatable VestBalloon Hat  Codex UmbraMagician's ChestMagician's Top Hat  * [Wigfrid](#) * [Webber](#) * [Warly](#) * [Wormwood](#) * [Winona](#) * [Wurt](#) * [Walter](#) * [Wanda](#)  Battle SpearBattle HelmWeaponized WarbleHeartrending BalladClear Minded CadenzaBel Canto of CourageFireproof FalsettoRude InterludeStartling Soliloquy  Spider EggsDen Decorating SetWebby WhistleShoo BoxHealing GlopWarrior SwitcherdoodleDangler SwitcherdoodleCave SwitcherdoodleSpitter SwitcherdoodleShatter SwitcherdoodleNurse SwitcherdoodleStrider Switcherdoodle  Portable Crock PotPortable Seasoning StationPortable Grinding MillChef Pouch  Compost WrapLiving LogBramble HuskBramble TrapSaplingBerry Bush ItemBerry Bush ItemJuicy Berry BushMonkeytailsFleshy BulbSyrup of IpecacaCarratBulbous LightbugSaladmander  Trusty TapeWinona's CatapultWinona's GeneratorWinona's G.E.M.eratorWinona's Spotlight  Craftsmerm HouseDIY Royalty KitMerm Flort-ificationsMarsh TurfClever Disguise  Trusty SlingshotPinetree Pioneer HatTent RollPebblesGold RoundsMarblesPoop PelletsFreeze RoundsSlow-Down RoundsCursed Rounds  Clockmaker's ToolsTime PiecesAgeless WatchSecond Chance WatchBackstep WatchBacktrek WatchRift WatchAlarming Clock |
+| **Tools Filter [Tools](/wiki/Tools_Filter "Tools Filter")** | AxePickaxeShovelHammerGarden HoePitchforkLuxury AxeOpulent PickaxeRegal ShovelSplendid Garden HoeSnazzy PitchforkTrapBird TrapBug NetRazorCompassWooden Walking StickWalking CaneSewing KitTrusty TapeAuto-Mat-O-ChanicFlareHostile FlareWatering CanWaterfowl CanFishing RodSea Fishing RodPocket ScaleBeefalo BellClockmaker's ToolsSaddlehornBrushTurf-Raiser HelmFeather PencilOcuvigilAstral DetectorClean SweeperPile o' BalloonsDen Decorating SetWebby WhistleShoo BoxCircuit ExtractorBio Scanalyzer |
+| **Light Sources Filter [Light Sources](/wiki/Light_Sources_Filter "Light Sources Filter")** | Willow's LighterTorchCampfireFire PitHumble Lamb IdolEndothermic FireEndothermic Fire PitPumpkin LanternMiner HatMogglesOptoelectronic CircuitLanternIllumination CircuitMorning StarNight LightWinona's SpotlightScaled FurnaceMushlightGlowcapAstral Detector |
+| **Prototypers & Stations Filter [Prototypers & Stations](/wiki/Prototypers_%26_Stations_Filter "Prototypers & Stations Filter")** | Science MachineAlchemy EngineThink TankTackle ReceptacleCartographer's DeskPrestihatitatorShadow ManipulatorPotter's WheelTerra Firma TamperMad Scientist LabMasonry OvenGobbler ShrineVarg ShrinePig ShrineCarrat ShrineBeefalo ShrineCatcoon Shrine |
+| **Refined Materials Filter [Refined Materials](/wiki/Refined_Materials_Filter "Refined Materials Filter")** | RopeBoardsCut StonePapyrusElectrical DoodadLiving LogTime PiecesWax PaperBeeswaxMarble BeanThick FurNightmare FuelPurple GemCratered MoonrockFeathery CanvasCollected Dust |
+| **Weapons Filter [Weapons](/wiki/Weapons_Filter "Weapons Filter")** | Alarming ClockTrusty SlingshotWinona's CatapultSpearBattle SpearBoomerangHam BatBat BatTail o' Three CatsMorning StarDark SwordNapsackBlow DartFire DartElectric DartSleep DartWeather PainStrident TridentFire StaffIce StaffGunpowderPan FluteTooth TrapBramble TrapBee MineWater BalloonCannon KitCannonballFencing Sword |
+| **Armour Filter [Armour](/wiki/Armour_Filter "Armour Filter")** | Grass SuitLog SuitBramble HuskScalemailNight ArmorMarble SuitHardwood HatFootball HelmetBattle HelmCookie Cutter CapBeekeeper HatDreadstone ArmorDreadstone HelmW.A.R.B.I.S. ArmorW.A.R.B.I.S. Head Gear |
+| **Clothing Filter [Clothing](/wiki/Clothing_Filter "Clothing Filter")** | Sewing KitTrusty TapeClever DisguisePinetree Pioneer HatInflatable VestBalloon HatBackpackSeed Pack-ItPiggybackInsulated PackOne-man BandBelt of HungerWhirly FanPretty ParasolUmbrellaLuxury FanGarlandFashion GogglesSeawreathStraw HatTop HatMagician's Top HatRain HatRabbit EarmuffsCat CapWinter HatBeefalo HatDesert GogglesTurf-Raiser HelmAstrogglesFashion MelonIce CubeBeekeeper HatFeather HatBush HatRain CoatDapper VestBreezy VestPuffy VestSummer FrestFloral ShirtWooden Walking StickWalking CaneHibearnation VestEyebrellaRed FuncapGreen FuncapBlue FuncapPolly Roger's Hat |
+| **Healing Filter [Healing](/wiki/Healing_Filter "Healing Filter")** | Ageless WatchSecond Chance WatchHealing GlopBeanbooster CircuitHealing SalveHoney PoulticeTillweed SalveCompost WrapTelltale HeartBooster ShotLife Giving AmuletStraw RollFur RollTent RollTentSiesta Lean-toMeat Effigy |
+| **Shadow Magic Filter [Shadow Magic](/wiki/Shadow_Magic_Filter "Shadow Magic Filter")** | Abigail's FlowerAlarming ClockKitschy Goose IdolKitschy Beaver IdolKitschy Moose IdolMagician's Top HatMagician's ChestCodex UmbraPrestihatitatorShadow ManipulatorMeat EffigyPan FluteOne-man BandNight LightNight ArmorDark SwordDreadstone ArmorDreadstone HelmBat BatBelt of HungerTurf-Raiser HelmPurple GemLife Giving AmuletChilled AmuletNightmare AmuletFire StaffIce StaffTelelocator StaffTelelocator FocusOcuvigilMoon DialThe Lazy DeserterNightmare FuelBright BoxerShadow Boxer |
+| **Decorations Filter [Decorations](/wiki/Decorations_Filter "Decorations Filter")** | Festive Tree PlanterPotter's WheelTerra Firma TamperFeather PencilClean SweeperSignDirectional SignMini SignPotted FernPotted SucculentEnd TableWardrobeBeefalo Grooming StationFish Scale-O-MaticProduce ScaleWood GateWood FenceHay WallWood WallStone WallMoon Rock WallDreadstone WallMoon Quay Pirate BannerDock KitDock PilingMannequinCobblestonesBrick FlooringWooden FlooringGold FlooringCheckerboard FlooringCarpeted FlooringLush CarpetRed Mosaic FlooringBlue Mosaic FlooringGrey Mosaic FlooringScaled FlooringAncient FlooringImitation Ancient FlooringAncient TileworkImitation Ancient TileworkAncient TileworkImitation Ancient BrickworkAncient BrickworkAncient StoneworkRocky Beach TurfShell Beach TurfMoon Quay Beach TurfForest TurfGrass TurfSavanna TurfDeciduous TurfSandy TurfRocky TurfGuano TurfCave Rock TurfSlimy TurfMarsh TurfMud TurfFungal Turf BlueFungal Turf RedFungal Turf GreenBeard Hair RugRelicRelicRelicRelicRelicRelicAnchor Figure SketchGramophoneRecordWooden ChairWooden StoolRound Wooden TableSquare Wooden TableArt?Table LampTable VaseEmpty FramePleasant Portrait |
+| **Structures Filter [Structures](/wiki/Structures_Filter "Structures Filter")** | Masonry OvenWinter's Feast TableFestive Tree PlanterMad Scientist LabGobbler ShrineVarg ShrinePig ShrineCarrat ShrineBeefalo ShrineCatcoon ShrineScience MachineAlchemy EngineThink TankTackle ReceptacleCartographer's DeskPrestihatitatorShadow ManipulatorPotter's WheelTerra Firma TamperCrock PotDrying RackOcean Trawler KitNight LightScaled FurnaceMushlightGlowcapSisturnCraftsmerm HouseDIY Royalty KitMerm Flort-ificationsWinona's CatapultWinona's SpotlightWinona's GeneratorWinona's G.E.M.eratorMighty GymSpider EggsChestScaled ChestMagician's ChestIce BoxSalt BoxThermal MeasurerRainometerLightning RodIce FlingomaticMoon DialAstral DetectorPunching BagBright BoxerShadow BoxerTentTent RollSiesta Lean-toMeat EffigyPig HouseRabbit HutchSalt LickGourmet Salt LickThe Lazy DeserterDock KitTelelocator FocusEnd TableIncomplete ExperimentFriendly ScarecrowMannequinWood GateWood FenceHay WallWood WallStone WallMoon Rock WallDreadstone WallSignDirectional SignMini SignPillar ScaffoldDreadstone Pillar Scaffold |
+| **Storage Solutions Filter [Storage Solutions](/wiki/Storage_Solutions_Filter "Storage Solutions Filter")** | Bundling WrapGift WrapBackpackPiggybackInsulated PackChef PouchSeed Pack-ItCandy BagChestScaled ChestMagician's ChestIce BoxSalt BoxTin Fishin' Bin |
+| **Cooking Filter [Cooking](/wiki/Cooking_Filter "Cooking Filter")** | Masonry OvenWillow's LighterPortable Crock PotPortable Grinding MillPortable Seasoning StationChef PouchCookbookCrock PotDrying RackCampfireFire PitIce BoxSalt BoxInsulated PackScaled Furnace |
+| **Food & Gardening Filter [Food & Gardening](/wiki/Food_%26_Gardening_Filter "Food & Gardening Filter")** | Garden DigamajigGarden HoeSplendid Garden HoeWatering CanWaterfowl CanBucket-o-poopGrowth Formula StarterTree JamCompost WrapComposting BinGardeneer HatOne-man BandChorusbox CircuitSeed Pack-ItMushroom PlanterBee BoxTrapBird TrapBirdcageOcean Trawler KitProduce Scale |
+| **Fishing Filter [Fishing](/wiki/Fishing_Filter "Fishing Filter")** | Tackle ReceptacleFishing RodSea Fishing RodTin Fishin' BinOcean Trawler KitWooden Ball BobberHardened Slip BobberJet Quill FloatCrimson Quill FloatAzure Quill FloatSaffron Quill FloatDown Quill FloatMalbatross Quill FloatSunrise SpoonDusky SpoonNightflyer SpoonSunrise SpinnerbaitDusky SpinnerbaitNightflyer SpinnerbaitRainy Day LureSnow Day LureStupefying LureHeavy Weighted LurePocket ScaleFish Scale-O-Matic |
+| **Seafaring Filter [Seafaring](/wiki/Seafaring_Filter "Seafaring Filter")** | Think TankGrass Raft KitBoat KitBoat PatchOarDriftwood OarInflatable VestAnchor KitSteering Wheel KitRudder KitMastWinged SailKelp Bumper KitShell Bumper KitCannon KitCannonballOcean Trawler KitDeck IlluminatorLightning ConductorTin Fishin' BinPinchin' WinchFire PumpNautopilot KitNautopilot BeaconDock KitDock Piling KitAnchor Figure Sketch |
+| **Beefalo Riding Filter [Beefalo Riding](/wiki/Beefalo_Riding_Filter "Beefalo Riding Filter")** | Beefalo BellSalt LickBrushSaddlehornSaddleWar SaddleGlossamer SaddleGrooming Station Kit |
+| **Winter Items Filter [Winter Items](/wiki/Winter_Items_Filter "Winter Items Filter")** | CampfireFire PitScaled FurnaceThermal StoneThermal CircuitDapper VestRain CoatBreezy VestPuffy VestHibearnation VestRabbit EarmuffsCat CapWinter HatBeefalo HatTentThermal Measurer |
+| **Summer Items Filter [Summer Items](/wiki/Summer_Items_Filter "Summer Items Filter")** | Endothermic FireEndothermic Fire PitThermal StoneRefrigerant CircuitChilled AmuletWhirly FanPretty ParasolUmbrellaLuxury FanSummer FrestFloral ShirtStraw HatGardeneer HatRed FuncapGreen FuncapBlue FuncapFashion MelonDesert GogglesIce CubeEyebrellaIce FlingomaticScaled FlooringSiesta Lean-toWater BalloonWatering CanWaterfowl CanThermal MeasurerRainometer |
+| **Rain Gear Filter [Rain Gear](/wiki/Rain_Gear_Filter "Rain Gear Filter")** | Pretty ParasolUmbrellaRain CoatBalloon HatStraw HatBeekeeper HatTop HatMagician's Top HatMiner HatCookie Cutter CapRain HatEyebrellaLightning RodRainometer |
+| **Special Event Filter [Special Event](/wiki/Special_Event_Filter "Special Event Filter")** | Masonry OvenWinter's Feast TableFestive Tree PlanterGift WrapMad Scientist LabCandy BagGobbler ShrineVarg ShrinePig ShrineCarrat ShrineBeefalo ShrineCatcoon Shrine |
+| **Ancient Pseudoscience Filter [Ancient Pseudoscience](/wiki/Ancient_Pseudoscience_Filter "Ancient Pseudoscience Filter")** | ThuleciteThulecite WallThulecite MedallionThe Lazy ForagerMagiluminescenceConstruction AmuletThe Lazy ExplorerStar Caller's StaffDeconstruction StaffPick/AxePremier Gardeneer HatThulecite CrownThulecite SuitThulecite ClubHoundius ShootiusShadowcraft Plinth KitBlueprintBlueprint |
+| **Cartography Filter [Cartography](/wiki/Cartography_Filter "Cartography Filter")** | Map Scroll |
+| **Critters Filter [Critters](/wiki/Critters_Filter "Critters Filter")** | KittykitVarglingEweletBroodlingGlomglomGibletMothlingFriendly Peeper |
+| **Celestial Filter [Celestial](/wiki/Celestial_Filter "Celestial Filter")** | Moon Rock IdolPortal ParaphernaliaBrightsmithy KitMoon Glass AxeGlass CutterMoon Crater TurfMutated Fungal TurfBath BombSketchSketch |
+| **Brightsmithy Filter [Brightsmithy](/wiki/Brightsmithy_Filter "Brightsmithy Filter")** | Brightshade ArmorBrightshade HelmBrightshade BombBrightshade StaffBrightshade SwordBrightshade SmasherBrightshade ShoevelBrightshade Repair KitPolar Bearger BinIce Crystaleyezer KitHowlitzer |
+| **Shadowcrafting Filter [Shadowcrafting](/wiki/Shadowcrafting_Filter "Shadowcrafting Filter")** | Void RobeVoid CowlUmbrallaShadow ReaperVoid Repair Kit |
+| **Bottle Exchange Filter [Bottle Exchange](/wiki/Bottle_Exchange_Filter "Bottle Exchange Filter")** | Bundle of ThanksBlueprintBlueprintJet Quill FloatCrimson Quill FloatAzure Quill FloatSaffron Quill FloatTackle BoxRainy Day LureSnow Day LureStupefying LureHeavy Weighted LureDown Quill FloatMalbatross Quill FloatFish FoodSpectackler Box |
+| **Sculptures Filter [Sculptures](/wiki/Sculptures_Filter "Sculptures Filter")** | Carved HornucopiaBubble Pipe CarvingAnchor FigurePawn FigureRook FigureKnight FigureBishop FigureQueenly FigureKingly FigureDeerclops FigureBearger FigureMoose/Goose FigureDragonfly FigureAncient Guardian FigureToadstool FigureBee Queen FigureKlaus FigureAntlion FigureAncient Fuelweaver FigureMalbatross FigureCrab King FigureCelestial Champion FigureMoon Moth Figure"Moon" FigureEye of Terror FigureTwins of Terror FigureHound FigureVarg FigureCarrat FigureBeefalo FigureCatcoon FigureKitcoon FigureBunnyman Figure MarbleNightmare Werepig FigureChess PiecesChess PiecesChess Pieces |
+| **Seasonings Filter [Seasonings](/wiki/Seasonings_Filter "Seasonings Filter")** | Garlic PowderHoney CrystalsChili FlakesSeasoning Salt |
+| **Offerings Filter [Offerings](/wiki/Offerings_Filter "Offerings Filter")** | * [Year of the Gobbler](#) * [Year of the Varg](#) * [Year of the Pig King](#) * [Year of the Carrat](#)  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailLucky Fan  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailLucky WhistleYear of the VargYear of the Varg  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailTribute RoastEight Treasure Mud PieFish Heads on a Stick  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailStarting PointFinish LineCheckpointYear of the CarratNavigation GymReflex GymSpeed GymEndurance GymCarrat ScalePacket of SeedsPremium Seed PacketYear of the Carrat  * [Year of the Beefalo](#) * [Year of the Catcoon](#) * [Year of the Bunnyman](#)  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailBeefalo BellJudge's BoothBeefalo StageSewing MachineFearsome Pattern ScrapFormal Pattern ScrapFestive Pattern ScrapYear of the Beefalo  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailTicoonKitcoon NurseryKit CollarWind-up Mouse ToyGobbler WobblerKit TeaserYear of the CatcoonYear of the Catcoon  Red FirecrackersRed LanternFloating LanternLucky Beast HeadLucky Beast BodyLucky Beast TailPillow Fight Pit KitGlove of ChallengeFlowery PillowKelp-Stuffed PillowBeefalo Wool PillowSteel Wool PillowFlowery Pillow ArmorKelpy Pillow ArmorBeefalo Pillow ArmorSteel Wool Pillow ArmorBunny RollMoon CakeMoon JellySkewered PuffsShort Rabbit Lamp KitTall Rabbit Lamp KitNightcapBunnyman Figure Sketch |
+| **Cawnival Creation Filter [Cawnival Creation](/wiki/Cawnival_Creation_Filter "Cawnival Creation Filter")** | Cawnival SaplingPrize Booth KitCawnival TokenCawnival TokenEggs in a Basket KitHubbub for Grub KitEgg Scramble KitNest Defender KitCuckoo Spinwheel KitBirdhouse Ball Drop Kit |
+| **Trinket Trove Filter [Trinket Trove](/wiki/Trinket_Trove_Filter "Trinket Trove Filter")** | PopcornMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer CawnivalMidsummer Cawnival |
+| **Mad Science Filter [Mad Science](/wiki/Mad_Science_Filter "Mad Science Filter")** | Phobic ExperimentSanguine ExperimentPsychosis ExperimentSulfuric ExperimentArboretum ExperimentLunar Experiment |
+| **Winter's Feast Cooking Filter [Winter's Feast Cooking](/wiki/Winter%27s_Feast_Cooking_Filter "Winter's Feast Cooking Filter")** | Winter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's FeastWinter's Feast |

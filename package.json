@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/highlight.js": "^9.12.4",
+    "@types/markdown-it": "^14.1.2"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0"
+  }
+}

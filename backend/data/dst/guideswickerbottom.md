@@ -1,0 +1,77 @@
+---
+game_version: dst
+category: Uncategorized
+source_url: https://dontstarve.fandom.com/wiki/Guides/Wickerbottom
+---
+
+|  |  |
+| --- | --- |
+|  | This article is a [**stub**](/wiki/Category:Article_stubs "Category:Article stubs"). You can help Don't Starve Wiki by [expanding it.](https://dontstarve.fandom.com/wiki/Guides/Wickerbottom?action=edit) |
+
+|  |  |
+| --- | --- |
+|  | This article may contain **instructional** language and subjective recommendations. Readers should read the content carefully, and follow accordingly. |
+
+## Contents
+
+* [1 Character Summary](#Character_Summary)
+  + [1.1 Advantages](#Advantages)
+  + [1.2 Disadvantages](#Disadvantages)
+* [2 Finding a Home](#Finding_a_Home)
+* [3 Managing Hunger](#Managing_Hunger)
+* [4 Managing Sanity](#Managing_Sanity)
+
+## Character Summary[]
+
+### Advantages[]
+
+*Main article: [Wickerbottom](/wiki/Wickerbottom "Wickerbottom")*
+
+* Can craft all [Science Machine](/wiki/Science_Machine "Science Machine") recipes even without one nearby.
+* Can prototype all [Alchemy Engine](/wiki/Alchemy_Engine "Alchemy Engine") recipes with a [Science Machine](/wiki/Science_Machine "Science Machine").
+* Can craft [Books](/wiki/Books "Books").
+* Has a large [Sanity](/wiki/Sanity "Sanity") pool.
+
+### Disadvantages[]
+
+*Main article: [Wickerbottom](/wiki/Wickerbottom "Wickerbottom")*
+
+* Cannot sleep ([Tent](/wiki/Tent "Tent"), [Straw Roll](/wiki/Straw_Roll "Straw Roll"), [Fur Roll](/wiki/Fur_Roll "Fur Roll"), [Siesta Lean-to](/wiki/Siesta_Lean-to "Siesta Lean-to"))
+* Suffers extra from [Spoilage](/wiki/Spoilage "Spoilage").
+
+## Finding a Home[]
+
+When settling somewhere you should think about your sanity sources and food management. You already have access to all [Science Machine](/wiki/Science_Machine "Science Machine") recipes, this allows you to delay settling and roam around for a little longer.
+
+* Already being able to craft Science Machine recipes, you have early access to many nice things such as a Backpack, allowing you to gather more things while exploring in the first days. But consider that you won't have access to the sanity boost triggered by first prototyping, so you might think of another way to gain sanity.
+* Since you cannot sleep, you need a source of sanity other than a [Tent](/wiki/Tent "Tent"). Spider dens are a nice source of silk, which can be used to craft clothing that restores sanity. Additionally, [Mushrooms](/wiki/Mushrooms "Mushrooms") (Green and Blue) are a nice source of [Sanity.](/wiki/Sanity "Sanity") Before making a base, consider opening [Sink Holes](/wiki/Sink_Hole "Sink Hole") to have a look in the caves and see if there are any green or blue [Mushtree Forests](/wiki/Mushtree_Forest "Mushtree Forest") nearby. If there are, consider building your base near the [Sink Hole](/wiki/Sink_Hole "Sink Hole") (some distance away, because [Batilisks](/wiki/Batilisk "Batilisk") spawn from it).
+* Since Wickerbottom can craft all Science Machine recipes, you can get yourself a [Shovel](/wiki/Shovel "Shovel") and dig up [Berry Bushes](/wiki/Berry_Bush "Berry Bush"), [Grass Tufts](/wiki/Grass_Tuft "Grass Tuft") and [Saplings](/wiki/Sapling "Sapling") in the first days, allowing you to make a nice camp quicker, as well as saving time by not doing it sooner rather than later.
+* You don't need to get an [Alchemy Engine](/wiki/Alchemy_Engine "Alchemy Engine") in order to craft tier II science recipes, so you might need a little less [Gold Nuggets](/wiki/Gold_Nuggets "Gold Nuggets"), [Logs](/wiki/Logs "Logs"), and [Rocks](/wiki/Rocks "Rocks") - instead you can save them in order to craft other things, such as a [Lightning Rod](/wiki/Lightning_Rod "Lightning Rod") and/or additional [Chests](/wiki/Chest "Chest").
+
+## Managing Hunger[]
+
+* Food spoilage cannot be afforded, therefore, try not to grab more than you need and avoid quickly spoiling foods unless you will eat them immediately. Leave [Berries](/wiki/Berries "Berries") on their bushes and [Carrots](/wiki/Carrots "Carrots") on the ground for emergencies, because they will not spoil unless picked up. Leave [Koalefants](/wiki/Koalefant "Koalefant") and other animals alive until you need them. Do not have any mercy on [Spiders](/wiki/Spiders "Spiders") however, because you need the [Silk](/wiki/Silk "Silk"), [Cooked Monster Meat](/wiki/Monster_meat "Monster meat") doesn't spoil fast and can be used in [Crock Pot](/wiki/Crock_Pot "Crock Pot") recipes, and [Spiders](/wiki/Spiders "Spiders") respawn fairly quickly.
+* Getting an [Ice Box](/wiki/Ice_Box "Ice Box") is a high priority. It will delay the spoilage of your food, as well as your [Mushrooms](/wiki/Mushrooms "Mushrooms"), which are equally important, it also stores your [Ice](/wiki/Ice "Ice") indefinitely. While you are scouting, look for sources of [Gears](/wiki/Gears "Gears"), grab as many as you can.
+
+## Managing Sanity[]
+
+Managing your [Sanity](/wiki/Sanity "Sanity") is important as [Wickerbottom](/wiki/Wickerbottom "Wickerbottom"), as you cannot jump into a [Tent](/wiki/Tent "Tent") like other [Characters](/wiki/Characters "Characters"). It is important to note that while insane, killing [Shadow Creatures](/wiki/Shadow_Creatures "Shadow Creatures") will restore a bit of sanity, along with providing the [Nightmare Fuel](/wiki/Nightmare_Fuel "Nightmare Fuel") to make [Sleepytime Stories](/wiki/Books#Sleepytime_Stories "Books"). As with other characters, this allows maintaining low sanity without losing control entirely and obtaining [Nightmare Fuel](/wiki/Nightmare_Fuel "Nightmare Fuel"), which is especially useful for Wickerbottom. To get back to high sanity levels, the players must use worn items or food, due to her inability to sleep.
+
+In *[Don't Starve Together](/wiki/Don%27t_Starve_Together "Don't Starve Together")*, [Totally Normal Trees](/wiki/Tree/Totally_Normal "Tree/Totally Normal") will be a useful find early on as their [Living Logs](/wiki/Living_Log "Living Log") allow for the creation of [Mushroom Planters](/wiki/Mushroom_Planter "Mushroom Planter"), a health-friendly way of boosting sanity via [Mushrooms](/wiki/Mushrooms "Mushrooms") consumption. [Treeguards](/wiki/Treeguard "Treeguard") will also drop Living Logs, however, it must be noted that combat should be avoided unless completely necessary since Wickerbottom cannot gain health as easily as other characters.
+
+| Action | Effect | Comment |
+| --- | --- | --- |
+| Wearing Top Hat | +3.3 [Sanity](/wiki/Sanity "Sanity") / min | * Does not spoil * Requires your head slot which can be a problem |
+| Eating Cooked Green Cap | +15 [Sanity](/wiki/Sanity "Sanity")   -1 [Health](/wiki/Health "Health") | * Fastest * Most effective |
+| Eating Cooked Blue Cap | +10 [Sanity](/wiki/Sanity "Sanity")   -3 [Health](/wiki/Health "Health") | * Less effective [Sanity](/wiki/Sanity "Sanity") restoration * If you have a lot of them, the raw version can restore your [Health](/wiki/Health "Health") and [Hunger](/wiki/Hunger "Hunger") |
+
+|  |  |
+| --- | --- |
+| **Game Guides** [view](/wiki/Template:Guide "Template:Guide") | |
+| **Basic** | [Getting Started](/wiki/Guides/Getting_Started_Guide "Guides/Getting Started Guide")  •  [The Big Picture](/wiki/Guides/The_Big_Picture "Guides/The Big Picture")  •  [All About Night](/wiki/Guides/All_About_Night "Guides/All About Night") [Blitzkrieging with Don't Starve's world](/wiki/Guides/Blitzkrieging_with_Don%27t_Starve%27s_world "Guides/Blitzkrieging with Don't Starve's world")  •  [Golden Rules of Don't Starve](/wiki/Guides/Golden_Rules_of_Don%27t_Starve "Guides/Golden Rules of Don't Starve")  •  [Marking and Revisiting Areas](/wiki/Guides/Marking_and_Revisiting_Areas "Guides/Marking and Revisiting Areas")  •  [Starting Out: A Guide For Newbies](/wiki/Guides/Starting_Out:_A_Guide_For_Newbies "Guides/Starting Out: A Guide For Newbies")  •  [Taming a Beefalo](/wiki/Guides/Taming_a_Beefalo "Guides/Taming a Beefalo")  •  [Thulecite](/wiki/Guides/Thulecite "Guides/Thulecite") |
+| **DLC** | [Don't Starve in Reign of Giants](/wiki/Guides/Don%27t_Starve_in_Reign_of_Giants "Guides/Don't Starve in Reign of Giants")  •  [The Ultimate Reign of Giants Starting Guide](/wiki/Guides/The_Ultimate_Reign_Of_Giants_Starting_Guide "Guides/The Ultimate Reign Of Giants Starting Guide")  •  [Summer Guide](/wiki/Guides/Summer_Guide "Guides/Summer Guide")  •  [Surviving Winter](/wiki/Guides/Surviving_Winter "Guides/Surviving Winter")  •  [Survive A Year In Reign Of Giants](/wiki/Guides/Survive_A_Year_In_Reign_Of_Giants "Guides/Survive A Year In Reign Of Giants")  •  [Surviving Shipwrecked](/wiki/Guides/Surviving_Shipwrecked "Guides/Surviving Shipwrecked")  •  [Surviving the hurricane and monsoon seasons in Shipwrecked](/wiki/Guides/Surviving_a_year_in_Shipwrecked "Guides/Surviving a year in Shipwrecked")  •  [Making Aquatic Bases in Shipwrecked](/wiki/Guides/Making_Aquatic_Bases_in_Shipwrecked "Guides/Making Aquatic Bases in Shipwrecked")  •  [Using the Seaworthy](/wiki/Guides/From_SW_to_RoG_via_the_Seaworthy! "Guides/From SW to RoG via the Seaworthy!")  •  [Guide to Survive in Volcano](/wiki/Guides/Guide_to_Survive_in_Volcano "Guides/Guide to Survive in Volcano")  •  [Getting Started in Hamlet](/wiki/Guides/Getting_Started_in_Hamlet "Guides/Getting Started in Hamlet")  •  [Exploring the Ruins in Hamlet](/wiki/Guides/Exploring_the_Ruins_in_Hamlet "Guides/Exploring the Ruins in Hamlet")  •  [Ham Temperate Season](/wiki/Guides/Ham_Temperate_Season "Guides/Ham Temperate Season")  •  [Hamlet Economy](/wiki/Guides/Hamlet_Economy "Guides/Hamlet Economy")  •  [Hamlet Survival Guide](/wiki/Guides/Hamlet_Survival_Guide "Guides/Hamlet Survival Guide")  •  [Making you own Hamlet](/wiki/Guides/Making_you_own_Hamlet "Guides/Making you own Hamlet") |
+| **Camping** | [Base Camp](/wiki/Guides/Base_Camp_Guide "Guides/Base Camp Guide")  •  [Frog Pond Camp](/wiki/Guides/Frog_Pond_Camp_Guide "Guides/Frog Pond Camp Guide")  •  [Self-sustaining Settlement](/wiki/Guides/Self-sustaining_Settlement_Guide "Guides/Self-sustaining Settlement Guide")  •  [Marsh Camp](/wiki/Guides/Marsh_Camp_Guide "Guides/Marsh Camp Guide")  •  [Camping Underground](/wiki/Guides/Camping_Underground "Guides/Camping Underground")  •  [Summer Cave Base](/wiki/Guides/Summer_Cave_Base "Guides/Summer Cave Base")  •  [Organizing your time in space](/wiki/Guides/Organizing_your_time_in_space "Guides/Organizing your time in space")  •  [Protected Fortress](/wiki/Guides/Protected_Fortress "Guides/Protected Fortress")  •  [The Best Biomes for Camp](/wiki/Guides/The_Best_Biomes_for_Camp "Guides/The Best Biomes for Camp") |
+| **Farming** | [Gold Nugget Farm](/wiki/Guides/Gold_Nugget_Farm_Guide "Guides/Gold Nugget Farm Guide")  •  [Renewable Farming](/wiki/Guides/Renewable_Farming "Guides/Renewable Farming")  •  [Farming](/wiki/Guides/Farming "Guides/Farming")  •  [Nightmare Fuel Farming](/wiki/Guides/Nightmare_Fuel_Farming "Guides/Nightmare Fuel Farming")  •  [Slurtle Slime](/wiki/Guides/Slurtle_Slime_Guide "Guides/Slurtle Slime Guide")  •  [Krampii](/wiki/Guides/Managing_Naughtiness "Guides/Managing Naughtiness")  •  [Fire Farm](/wiki/Guides/Fire_Farm "Guides/Fire Farm")  •  [Pig Farming](/wiki/Guides/Pig_Farming "Guides/Pig Farming")  •  [Berries and Turkey Farm](/wiki/Guides/Incredible_Inedible "Guides/Incredible Inedible")  •  [MeatFarm](/wiki/Guides/MeatFarm "Guides/MeatFarm") |
+| **Survival** | [Adventure Mode](/wiki/Guides/Adventure_Guide "Guides/Adventure Guide")  •  [Mob Killing](/wiki/Guides/Mob_Killing_Guide "Guides/Mob Killing Guide")  •  [How To not starve](/wiki/Guides/How_to_not_starve "Guides/How to not starve")  •  [How to survive](/wiki/Guides/How_to_Survive "Guides/How to Survive")  •  [Hound Wave Survival](/wiki/Guides/Hound_Wave_Survival_Guide "Guides/Hound Wave Survival Guide")  •  [Mushroom Guide](/wiki/Guides/Mushroom_Guide "Guides/Mushroom Guide")  •  [Boss Drops](/wiki/Guides/What_To_Do_With_Boss_Drops "Guides/What To Do With Boss Drops")  •  [Spelunking Guide](/wiki/Guides/Spelunking_Guide "Guides/Spelunking Guide")  •  [Winter Guide](/wiki/Guides/Winter_Guide "Guides/Winter Guide")  •  [Crock Pot Dishes](/wiki/Guides/Crock_Pot_Dishes "Guides/Crock Pot Dishes")  •  [Panic Room Guide](/wiki/Guides/Panic_Room "Guides/Panic Room")  •  [Just Spawned](/wiki/Guides/You_Have_Just_Spawned,_Now_What%3F%3F "Guides/You Have Just Spawned, Now What??")  •  [Advanced World](/wiki/Guides/Advanced_World "Guides/Advanced World")  •  [World vs Caves](/wiki/Guides/World_vs_Caves "Guides/World vs Caves")  •  [Preparing for Deerclops](/wiki/Guides/Preparing_for_Deerclops "Guides/Preparing for Deerclops")  •  [Advanced Hound Protection](/wiki/Guides/Advanced_Hound_Protection "Guides/Advanced Hound Protection")  •  [Combatting Bosses](/wiki/Guides/Combatting_Bosses "Guides/Combatting Bosses")  •  [Killing Dragonfly DST](/wiki/Guides/Killing_Dragonfly_DST "Guides/Killing Dragonfly DST")  •  [Making your Overworld a better place.](/wiki/Guides/Making_your_Overworld_a_better_place. "Guides/Making your Overworld a better place.")  •  [Maximum Efficiency Day 13 Base DST Guide](/wiki/Guides/Maximum_Efficiency_Day_13_Base_DST_Guide "Guides/Maximum Efficiency Day 13 Base DST Guide")  •  [Picking your armor](/wiki/Guides/Picking_your_armor "Guides/Picking your armor")  •  [Surviving the winter in DST](/wiki/Guides/Surviving_the_winter_in_DST "Guides/Surviving the winter in DST")  •  [The Forge](/wiki/Guides/The_Forge "Guides/The Forge")  •  [Making Bigger and Better Weapons](/wiki/Guides/Making_Bigger_and_Better_Weapons "Guides/Making Bigger and Better Weapons")  (*[Surviving in a New Server](/wiki/Guides/Surviving_in_a_New_Server "Guides/Surviving in a New Server"))* |
+| **Technical** | [Physical Damage Absorption](/wiki/Guides/Physical_Damage_Absorption "Guides/Physical Damage Absorption")  •  [Console Commands](/wiki/Guides/Console "Guides/Console")  (*[Automatically Start Dedicated Server (Linux)](/wiki/Guides/Automatically_Start_Dedicated_Server_(Linux) "Guides/Automatically Start Dedicated Server (Linux)")  •  [Simple Dedicated Server Setup](/wiki/Guides/Simple_Dedicated_Server_Setup "Guides/Simple Dedicated Server Setup")  •  [Don’t Starve Together Dedicated Servers](/wiki/Guides/Don%E2%80%99t_Starve_Together_Dedicated_Servers "Guides/Don’t Starve Together Dedicated Servers")* Don't Starve Together) |
+| **Characters** | [Surviving 101 With Wilson P. Higgsbury (And Other People)](/wiki/Guides/Surviving_101_With_Wilson_P._Higgsbury_(And_Other_People) "Guides/Surviving 101 With Wilson P. Higgsbury (And Other People)")  •  [Willow](/wiki/Guides/Character_guide-Willow "Guides/Character guide-Willow")  •  [Wolfgang](/wiki/Guides/Character_guide_-_Wolfgang,_The_Strongman "Guides/Character guide - Wolfgang, The Strongman")  •  [Wendy](/wiki/Guides/Character_guides-Wendy "Guides/Character guides-Wendy")  •  [WX-78 survival](/wiki/Guides/WX-78_survival "Guides/WX-78 survival")  •  **Wickerbottom**  •  [Wickerbottom's Books](/wiki/Guides/Character_guide_-_Wickerbottom%27s_Books "Guides/Character guide - Wickerbottom's Books")  •  [Woodie's Curse](/wiki/Guides/Woodie%27s_Curse "Guides/Woodie's Curse")  •  [Wigfrid](/wiki/User_blog:Cmshaw/Adventure_Mode_with_Wigfrid_Guide "User blog:Cmshaw/Adventure Mode with Wigfrid Guide")  •  [Maxwell](/wiki/Guides/Character_Guide_-_Maxwell "Guides/Character Guide - Maxwell")  •  [Guide to Don't Starve Lore](/wiki/Guides/Guide_to_Don%27t_Starve_Lore "Guides/Guide to Don't Starve Lore") |

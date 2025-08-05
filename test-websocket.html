@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket测试</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #chatBox { height: 400px; border: 1px solid #ccc; margin-bottom: 10px; padding: 10px; overflow-y: auto; }
+        #messageInput { width: 80%; padding: 8px; }
+        #sendButton { padding: 8px 16px; }
+        .message { margin-bottom: 10px; }
+        .user { color: #2c3e50; }
+        .ai { color: #16a085; }
+        .system { color: #7f8c8d; font-style: italic; }
+        .error { color: #e74c3c; }
+        .sources { margin-top: 5px; font-size: 0.9em; color: #3498db; }
+        .source-item { margin: 2px 0; padding-left: 10px; }
+    </style>
+</head>
+<body>
+    <h1>WikiUp RAG系统测试</h1>
+    <div id="chatBox"></div>
+    <input id="messageInput" type="text" placeholder="输入问题...">
+    <button id="sendButton">发送</button>
+
+    <script>
+        const chatBox = document.getElementById('chatBox');
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.getElementById('sendButton');
+        let socket = null;
+
+        // 连接WebSocket
+        function connect() {
+            socket = new WebSocket('ws://localhost:8080/api/v1/qa/ask');
+
+            socket.onopen = function(e) {
+                appendMessage('系统', '连接已建立');
+            };
+
+            socket.onmessage = function(event) {
+                try {
+                    const response = JSON.parse(event.data);
+                    if (response.type === 'error') {
+                        appendMessage('错误', response.message);
+                    } else if (response.type === 'answer') {
+                        // 处理带有源引用的回答
+                        appendMessage('AI', response.content, response.sources);
+                    } else {
+                        // 处理其他类型的消息
+                        appendMessage('AI', response.content || response.message || event.data);
+                    }
+                } catch (e) {
+                    // 如果不是JSON格式，直接显示文本
+                    appendMessage('AI', event.data);
+                }
+            };
+
+            socket.onclose = function(event) {
+                if (event.wasClean) {
+                    appendMessage('系统', `连接已关闭，代码=${event.code} 原因=${event.reason}`);
+                } else {
+                    appendMessage('系统', '连接意外断开');
+                }
+            };
+
+            socket.onerror = function(error) {
+                appendMessage('错误', '连接错误');
+                console.error('WebSocket错误:', error);
+            };
+        }
+
+        // 发送消息
+        function sendMessage() {
+            if (!socket || socket.readyState !== WebSocket.OPEN) {
+                appendMessage('系统', '连接未建立，尝试重新连接...');
+                connect();
+                setTimeout(sendMessage, 1000); // 1秒后重试
+                return;
+            }
+
+            const message = messageInput.value.trim();
+            if (message) {
+                appendMessage('用户', message);
+                
+                // 发送JSON格式消息
+                socket.send(JSON.stringify({ 
+                    question: message,
+                    stream: false
+                }));
+                
+                messageInput.value = '';
+            }
+        }
+
+        // 添加消息到聊天框
+        function appendMessage(sender, message, sources = null) {
+            const messageElement = document.createElement('div');
+            messageElement.className = `message ${sender.toLowerCase()}`;
+            
+            // 添加发送者和消息内容
+            const contentElement = document.createElement('div');
+            contentElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
+            messageElement.appendChild(contentElement);
+            
+            // 如果有源引用信息，添加源列表
+            if (sources && sources.length > 0) {
+                const sourcesElement = document.createElement('div');
+                sourcesElement.className = 'sources';
+                sourcesElement.innerHTML = '<strong>参考资料:</strong>';
+                
+                const sourcesList = document.createElement('ul');
+                sources.forEach(source => {
+                    const sourceItem = document.createElement('li');
+                    sourceItem.className = 'source-item';
+                    sourceItem.innerHTML = `${source.title} (${source.source}) - 相关度: ${source.score || 'N/A'}`;
+                    sourcesList.appendChild(sourceItem);
+                });
+                
+                sourcesElement.appendChild(sourcesList);
+                messageElement.appendChild(sourcesElement);
+            }
+            
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        // 事件监听
+        sendButton.addEventListener('click', sendMessage);
+        messageInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // 初始连接
+        connect();
+    </script>
+</body>
+</html> 
