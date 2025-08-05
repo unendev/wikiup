@@ -1,0 +1,19 @@
+
+# IDE files
+.vscode/
+
+# Dependency directories
+node_modules/
+target/
+.mvn/
+
+# Log files
+*.log
+
+# Runtime data
+*.dat
+*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db 
