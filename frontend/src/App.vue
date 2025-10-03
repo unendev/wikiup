@@ -162,7 +162,7 @@ const sendMessage = () => {
     // 发送JSON格式消息，添加时间戳防止缓存
     socket.value.send(JSON.stringify({ 
       question: userText,
-      stream: true,
+      stream: false,
       timestamp: new Date().getTime() 
     }));
     

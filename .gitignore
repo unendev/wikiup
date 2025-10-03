@@ -3,17 +3,42 @@
 .vscode/
 
 # Dependency directories
-node_modules/
-target/
-.mvn/
+/node_modules/
+/backend/target/
+/frontend/node_modules/
 
 # Log files
 *.log
+/backend/hs_err_pid*.log
 
-# Runtime data
-*.dat
-*.json
+# Runtime data & temp files
+/backend/data/
+/backend/pom.xml.new
+/backend/pom.xml.fixed
+/backend/pom.xml.tmp
+
+# Test files
+/test-websocket.html
+
+# Documentation, personal files, and other clutter
+/项目简历描述.md
+/学习方向.md
+/前端实现-imp.md
+/改造imp.md
+/改造imp-2.md
+/人工介入.md
+/后端优化-imp.md
+/project_status.md
+/rubbish/
 
 # OS generated files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Build artifacts
+/dist/
+/frontend/dist/
+/backend/.mvn/ 
+
+# 忽略所有爬取的数据文件
+/backend/data

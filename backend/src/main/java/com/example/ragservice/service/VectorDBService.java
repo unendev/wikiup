@@ -135,19 +135,31 @@ public class VectorDBService {
             int size = ois.readInt();
             logger.info("Loading {} vector entries from disk...", size);
             
+            int validCount = 0;
+            int nullCount = 0;
+            
             // 读取所有向量条目
             for (int i = 0; i < size; i++) {
                 VectorEntry entry = (VectorEntry) ois.readObject();
-                vectorDb.add(entry);
+                
+                // 过滤掉 null 向量的条目
+                if (entry != null && entry.vector() != null && entry.vector().length > 0) {
+                    vectorDb.add(entry);
+                    validCount++;
+                } else {
+                    nullCount++;
+                }
                 
                 // 定期显示加载进度
                 if ((i + 1) % 1000 == 0 || i == size - 1) {
-                    logger.info("Loaded {}/{} vector entries", i + 1, size);
+                    logger.info("Loaded {}/{} vector entries (valid: {}, skipped: {})", 
+                        i + 1, size, validCount, nullCount);
                 }
             }
             
             logger.info("Vector database loaded from disk successfully");
-            return true;
+            logger.info("Valid entries: {}, Skipped null/invalid entries: {}", validCount, nullCount);
+            return validCount > 0;
         } catch (Exception e) {
             logger.error("Failed to load vector database from disk", e);
             // 加载失败时清空向量库，确保不会有部分加载的数据
@@ -576,6 +588,18 @@ public class VectorDBService {
     }
     
     private double cosineSimilarity(float[] vectorA, float[] vectorB) {
+        // 添加 null 检查
+        if (vectorA == null || vectorB == null) {
+            logger.warn("Null vector detected in similarity calculation");
+            return 0.0;
+        }
+        
+        // 检查向量长度是否匹配
+        if (vectorA.length != vectorB.length) {
+            logger.warn("Vector length mismatch: {} vs {}", vectorA.length, vectorB.length);
+            return 0.0;
+        }
+        
         double dotProduct = 0.0;
         double normA = 0.0;
         double normB = 0.0;
