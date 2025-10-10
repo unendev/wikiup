@@ -12,11 +12,8 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
 
 @Service
 public class DefaultRAGService implements RAGService {
@@ -45,13 +42,11 @@ public class DefaultRAGService implements RAGService {
             // 2. 从向量数据库中检索最相关的文档
             List<VectorDBService.SearchResult> searchResults = vectorDBService.search(queryVector, topK);
             
-            // 3. 从搜索结果中提取内容和元数据
+            // 3. 从搜索结果中提取内容
             List<String> contexts = new ArrayList<>();
-            List<Map<String, String>> sources = new ArrayList<>();
             
             for (VectorDBService.SearchResult result : searchResults) {
                 contexts.add(result.text());
-                sources.add(result.metadata());
             }
             
             // 4. 调用LLM生成回答
@@ -66,13 +61,20 @@ public class DefaultRAGService implements RAGService {
             
             long processingTime = System.currentTimeMillis() - startTime;
             
-            // 5. 构建响应
-            return ChatResponse.of(answer, sources, processingTime);
+            // 5. 构建响应（包含评分信息）
+            ChatResponse response = new ChatResponse(answer);
+            response.setProcessingTimeMs(processingTime);
+            
+            for (VectorDBService.SearchResult result : searchResults) {
+                response.addSource(result.metadata(), result.score());
+            }
+            
+            return response;
         });
     }
     
     @Override
-    public void getAnswerStream(String question, Consumer<String> onChunk, Runnable onComplete, Consumer<Throwable> onError) {
+    public void getAnswerStream(String question, Consumer<String> onChunk, Consumer<List<ChatResponse.SourceInfo>> onComplete, Consumer<Throwable> onError) {
         try {
             logger.info("Processing streaming question: {}", question);
             
@@ -89,8 +91,21 @@ public class DefaultRAGService implements RAGService {
                 contexts.add(result.text());
             }
             
-            // 4. 调用LLM生成流式回答
-            llmService.generateAnswerStream(contexts, question, onChunk, onComplete, onError);
+            // 4. 构建来源信息列表
+            List<ChatResponse.SourceInfo> sources = new ArrayList<>();
+            for (VectorDBService.SearchResult result : searchResults) {
+                ChatResponse.SourceInfo sourceInfo = new ChatResponse.SourceInfo();
+                sourceInfo.setTitle(result.metadata().getOrDefault("title", "未知标题"));
+                sourceInfo.setSource(result.metadata().getOrDefault("source", "未知来源"));
+                sourceInfo.setPath(result.metadata().getOrDefault("path", ""));
+                sourceInfo.setScore(result.score());
+                sources.add(sourceInfo);
+            }
+            
+            // 5. 调用LLM生成流式回答，完成时传递来源信息
+            llmService.generateAnswerStream(contexts, question, onChunk, 
+                () -> onComplete.accept(sources), 
+                onError);
             
         } catch (Exception e) {
             logger.error("Error processing streaming question", e);

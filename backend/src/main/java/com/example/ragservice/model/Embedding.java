@@ -1,16 +1,36 @@
 package com.example.ragservice.model;
 
-import java.util.Arrays;
+import javax.persistence.*;
 
 /**
  * 嵌入向量领域模型
  */
+@Entity
+@Table(name = "embedding", indexes = {
+    @Index(name = "idx_object_id", columnList = "object_id"),
+    @Index(name = "idx_object_type", columnList = "object_type")
+})
 public class Embedding {
-    private String id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    @Column(name = "object_id", nullable = false, length = 100)
     private String objectId;  // 关联对象ID（文档或块）
+    
+    @Column(name = "object_type", nullable = false, length = 50)
     private String objectType;  // 关联对象类型
+    
+    @Transient
     private float[] vector;
+    
+    @Column(name = "vector_data", columnDefinition = "TEXT")
+    private String vectorData;  // 用于存储序列化的vector数组
+    
+    @Column(name = "dimensions")
     private int dimensions;
+    
+    @Column(name = "model", length = 100)
     private String model;  // 使用的模型名称
     
     public Embedding() {
@@ -61,7 +81,7 @@ public class Embedding {
      */
     public static Embedding fromChunk(Chunk chunk, String model) {
         return new Embedding(
-                chunk.getId(), 
+                chunk.getChunkId(), 
                 "chunk", 
                 chunk.getEmbedding(), 
                 model
@@ -73,7 +93,7 @@ public class Embedding {
      */
     public static Embedding fromDocument(Document document, float[] vector, String model) {
         return new Embedding(
-                document.getId(),
+                document.getDocId(),
                 "document",
                 vector,
                 model
@@ -81,11 +101,11 @@ public class Embedding {
     }
 
     // Getters and Setters
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -106,12 +126,38 @@ public class Embedding {
     }
 
     public float[] getVector() {
+        if (vector == null && vectorData != null && !vectorData.isEmpty()) {
+            // 从vectorData反序列化
+            String[] parts = vectorData.split(",");
+            vector = new float[parts.length];
+            for (int i = 0; i < parts.length; i++) {
+                vector[i] = Float.parseFloat(parts[i]);
+            }
+        }
         return vector;
     }
 
     public void setVector(float[] vector) {
         this.vector = vector;
+        // 序列化到vectorData
+        if (vector != null) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < vector.length; i++) {
+                if (i > 0) sb.append(",");
+                sb.append(vector[i]);
+            }
+            this.vectorData = sb.toString();
+        }
         this.dimensions = vector != null ? vector.length : 0;
+    }
+
+    public String getVectorData() {
+        return vectorData;
+    }
+
+    public void setVectorData(String vectorData) {
+        this.vectorData = vectorData;
+        this.vector = null; // 清除缓存，下次获取时重新解析
     }
 
     public int getDimensions() {

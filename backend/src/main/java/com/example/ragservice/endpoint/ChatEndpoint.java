@@ -68,8 +68,6 @@ public class ChatEndpoint {
             
             if (isStream) {
                 // 使用流式处理
-                List<Map<String, String>> sources = new ArrayList<>();
-                
                 ragService.getAnswerStream(
                     question,
                     // 每个响应块的处理
@@ -85,54 +83,30 @@ public class ChatEndpoint {
                             log.error("Error sending chunk", e);
                         }
                     },
-                    // 完成时的处理
-                    () -> {
+                    // 完成时的处理（接收来源信息）
+                    sources -> {
                         try {
-                            // 获取RAGService中的源信息
-                            ragService.getAnswer(question).subscribe(answer -> {
-                                try {
-                                    // 创建包含完成信息和数据源的响应
-                                    ObjectNode responseJson = objectMapper.createObjectNode()
-                                        .put("type", "done");
-                                    
-                                    // 添加来源数组
-                                    ArrayNode sourcesArray = responseJson.putArray("sources");
-                                    for (ChatResponse.SourceInfo source : answer.getSources()) {
-                                        ObjectNode sourceNode = objectMapper.createObjectNode();
-                                        sourceNode.put("title", source.getTitle());
-                                        sourceNode.put("source", source.getSource());
-                                        sourceNode.put("path", source.getPath());
-                                        sourcesArray.add(sourceNode);
-                                    }
-                                    
-                                    String jsonResponse = objectMapper.writeValueAsString(responseJson);
-                                    session.getBasicRemote().sendText(jsonResponse);
-                                } catch (IOException e) {
-                                    log.error("Error sending completion message with sources", e);
+                            // 创建包含完成信息和数据源的响应
+                            ObjectNode responseJson = objectMapper.createObjectNode()
+                                .put("type", "done");
+                            
+                            // 添加来源数组
+                            ArrayNode sourcesArray = responseJson.putArray("sources");
+                            for (ChatResponse.SourceInfo source : sources) {
+                                ObjectNode sourceNode = objectMapper.createObjectNode();
+                                sourceNode.put("title", source.getTitle());
+                                sourceNode.put("source", source.getSource());
+                                sourceNode.put("path", source.getPath());
+                                if (source.getScore() != null) {
+                                    sourceNode.put("score", source.getScore());
                                 }
-                            }, error -> {
-                                try {
-                                    // 如果获取源信息失败，发送没有源信息的完成消息
-                                    String jsonResponse = objectMapper.writeValueAsString(
-                                        objectMapper.createObjectNode()
-                                            .put("type", "done")
-                                    );
-                                    session.getBasicRemote().sendText(jsonResponse);
-                                } catch (IOException e) {
-                                    log.error("Error sending basic completion message", e);
-                                }
-                            });
-                        } catch (Exception e) {
-                            log.error("Error processing completion", e);
-                            try {
-                                String jsonResponse = objectMapper.writeValueAsString(
-                                    objectMapper.createObjectNode()
-                                        .put("type", "done")
-                                );
-                                session.getBasicRemote().sendText(jsonResponse);
-                            } catch (IOException ioe) {
-                                log.error("Error sending fallback completion message", ioe);
+                                sourcesArray.add(sourceNode);
                             }
+                            
+                            String jsonResponse = objectMapper.writeValueAsString(responseJson);
+                            session.getBasicRemote().sendText(jsonResponse);
+                        } catch (IOException e) {
+                            log.error("Error sending completion message with sources", e);
                         }
                     },
                     // 错误处理
@@ -165,6 +139,9 @@ public class ChatEndpoint {
                             sourceNode.put("title", source.getTitle());
                             sourceNode.put("source", source.getSource());
                             sourceNode.put("path", source.getPath());
+                            if (source.getScore() != null) {
+                                sourceNode.put("score", source.getScore());
+                            }
                             sourcesArray.add(sourceNode);
                         }
                         

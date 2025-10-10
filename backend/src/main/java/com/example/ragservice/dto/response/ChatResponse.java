@@ -25,10 +25,18 @@ public class ChatResponse {
      * 添加来源信息
      */
     public void addSource(String title, String source, String path) {
+        addSource(title, source, path, null);
+    }
+    
+    /**
+     * 添加来源信息（包含评分）
+     */
+    public void addSource(String title, String source, String path, Double score) {
         SourceInfo sourceInfo = new SourceInfo();
         sourceInfo.setTitle(title);
         sourceInfo.setSource(source);
         sourceInfo.setPath(path);
+        sourceInfo.setScore(score);
         this.sources.add(sourceInfo);
     }
     
@@ -36,6 +44,13 @@ public class ChatResponse {
      * 从元数据映射添加来源信息
      */
     public void addSource(Map<String, String> metadata) {
+        addSource(metadata, null);
+    }
+    
+    /**
+     * 从元数据映射添加来源信息（包含评分）
+     */
+    public void addSource(Map<String, String> metadata, Double score) {
         if (metadata == null) {
             return;
         }
@@ -44,7 +59,7 @@ public class ChatResponse {
         String source = metadata.getOrDefault("source", "未知来源");
         String path = metadata.getOrDefault("path", "");
         
-        addSource(title, source, path);
+        addSource(title, source, path, score);
     }
     
     /**
@@ -94,6 +109,7 @@ public class ChatResponse {
         private String title;
         private String source;
         private String path;
+        private Double score;  // 相似度评分
         
         public String getTitle() {
             return title;
@@ -117,6 +133,14 @@ public class ChatResponse {
         
         public void setPath(String path) {
             this.path = path;
+        }
+        
+        public Double getScore() {
+            return score;
+        }
+        
+        public void setScore(Double score) {
+            this.score = score;
         }
     }
 } 

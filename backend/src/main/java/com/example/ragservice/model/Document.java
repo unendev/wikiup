@@ -1,5 +1,6 @@
 package com.example.ragservice.model;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +10,52 @@ import java.util.HashMap;
 /**
  * 文档领域模型
  */
+@Entity
+@Table(name = "document", indexes = {
+    @Index(name = "idx_status", columnList = "status"),
+    @Index(name = "idx_created_at", columnList = "created_at")
+})
 public class Document {
-    private String id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    @Column(name = "doc_id", unique = true, length = 100)
+    private String docId;
+    
+    @Column(nullable = false, length = 500)
     private String title;
+    
+    @Column(columnDefinition = "TEXT")
     private String content;
+    
+    @Column(length = 500)
     private String source;
+    
+    @Column(length = 1000)
     private String path;
+    
+    @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
+    
+    @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+    
+    @Enumerated(EnumType.STRING)
+    @Column(length = 50)
     private DocumentStatus status;
+    
+    @OneToMany(mappedBy = "document", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Chunk> chunks;
+    
+    @ElementCollection
+    @CollectionTable(name = "document_metadata", joinColumns = @JoinColumn(name = "document_id"))
+    @MapKeyColumn(name = "meta_key")
+    @Column(name = "meta_value", length = 1000)
     private Map<String, String> metadata;
     
     // 嵌入状态
+    @Column(name = "embedded")
     private boolean embedded;
 
     public Document() {
@@ -60,12 +94,20 @@ public class Document {
     }
 
     // Getters and Setters
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getDocId() {
+        return docId;
+    }
+
+    public void setDocId(String docId) {
+        this.docId = docId;
     }
 
     public String getTitle() {

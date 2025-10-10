@@ -2,6 +2,7 @@ package com.example.ragservice.service;
 
 import com.example.ragservice.dto.response.ChatResponse;
 import reactor.core.publisher.Mono;
+import java.util.List;
 import java.util.function.Consumer;
 
 /**
@@ -20,13 +21,13 @@ public interface RAGService {
      * 流式获取问题的回答
      * @param question 问题文本
      * @param onChunk 文本块回调
-     * @param onComplete 完成回调
+     * @param onComplete 完成回调，传递来源信息列表
      * @param onError 错误回调
      */
     void getAnswerStream(
             String question,
             Consumer<String> onChunk,
-            Runnable onComplete,
+            Consumer<List<ChatResponse.SourceInfo>> onComplete,
             Consumer<Throwable> onError
     );
     

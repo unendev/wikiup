@@ -1,0 +1,102 @@
+---
+game_version: dst
+category: Uncategorized
+source_url: https://dontstarve.fandom.com/wiki/Fishes
+---
+
+**“**Meat öf the sea!**”**
+
+–[Wigfrid](/wiki/Wigfrid "Wigfrid")
+
+There are 2 basic **Fish** [Food](/wiki/Food "Food") [Items](/wiki/Items "Items") in *[Don't Starve](/wiki/Don%27t_Starve "Don't Starve")*; [Fish](/wiki/Fish "Fish") and [Eel](/wiki/Eel "Eel") (There are 16 additional types in the *[Shipwrecked](/wiki/Don%27t_Starve:_Shipwrecked "Don't Starve: Shipwrecked")* DLC and 13 additional types in *[Don't Starve Together](/wiki/Don%27t_Starve_Together "Don't Starve Together")*). Fish can be obtained by [Fishing](/wiki/Fishing "Fishing") in [Ponds](/wiki/Pond "Pond") on either the [Surface World](/wiki/Surface_World "Surface World") or the [Caves](/wiki/Caves "Caves"), and as a drop from [Merms](/wiki/Merm "Merm") / [Merm Heads](/wiki/Merm_Head "Merm Head"). Eels, however, can only be fished from Ponds found in the [Ruins](/wiki/Ruins "Ruins"). Both types of Fish are a subtype of [Meat](/wiki/Meats "Meats"), and as such, can be used as Meat fillers in the [Crock Pot](/wiki/Crock_Pot "Crock Pot") and be eaten by [Wigfrid](/wiki/Wigfrid "Wigfrid"). In *Don't Starve Together* [Ocean Fishes](/wiki/Ocean_Fishes "Ocean Fishes") can be fished from the [Ocean](/wiki/Ocean "Ocean") with the [Sea Fishing Rod](/wiki/Sea_Fishing_Rod "Sea Fishing Rod").
+
+Mobs such as [Pigs](/wiki/Pigs "Pigs"), [Spiders](/wiki/Spider "Spider") or [Hounds](/wiki/Hound "Hound") will eat any form of dropped Fish on the ground. Additionally, [Bunnymen](/wiki/Bunnymen "Bunnymen") will be aggressive towards a player if they have any item on this list.
+
+## Icon Tools Usage[]
+
+* There are 4 Crock Pot recipes that require Fish meat. Three of the recipes, [Fish Tacos](/wiki/Fish_Tacos "Fish Tacos"), [Fishsticks](/wiki/Fishsticks "Fishsticks"), and California Rolls Will accept both Fish or Eel, while [Unagi](/wiki/Unagi "Unagi") only accepts Eel. (There are 12 additional recipes in the *Shipwrecked* DLC.)
+* Many of the Fish can be dried on a [Drying Rack](/wiki/Drying_Rack "Drying Rack"), resulting in [Jerky](/wiki/Jerky "Jerky"), a much longer-lasting food item with different [Hunger](/wiki/Hunger "Hunger"), [Sanity](/wiki/Sanity "Sanity"), and [Health](/wiki/Health "Health") bonuses. Most of the Fish can also be used in [Crock Pot](/wiki/Crock_Pot "Crock Pot") recipes.
+* Many Fish have both a [Meat Value](/wiki/Crock_Pot#Food_values "Crock Pot") and a [Fish Value](/wiki/Crock_Pot#Food_values "Crock Pot") when used in a Crock Pot, giving a wide variety of potential recipes.
+* In the *Shipwrecked* DLC, any type of Fish (and many Fish Crock Pot recipes) can be given to the [Yaarctopus](/wiki/Yaarctopus "Yaarctopus") in exchange for [Octopus Chests](/wiki/Octopus_Chest "Octopus Chest") (except shark fin).
+
+| Living | | Dead | | Cooked | | [Dried](/wiki/Drying_Rack "Drying Rack") | | DLC | [Fish Value](/wiki/Crock_Pot#Food_values "Crock Pot") | [Crock Pot](/wiki/Crock_Pot "Crock Pot") |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| N/A | N/A | Fish | [Fish](/wiki/Fish "Fish") | Cooked Fish | [Cooked Fish](/wiki/Cooked_Fish "Cooked Fish") | Small Jerky | [Small Jerky](/wiki/Small_Jerky "Small Jerky") | Don't Starve icon | 1.0 | Yes |
+| Freshwater Fish | [Freshwater Fish](/wiki/Freshwater_Fish "Freshwater Fish") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | Small Jerky | [Small Jerky](/wiki/Small_Jerky "Small Jerky") | Don't Starve Together icon | 0.5 | Yes |
+| Live Eel | [Live Eel](/wiki/Live_Eel "Live Eel") Don't Starve Together icon | Eel | [Eel](/wiki/Eel "Eel") | Eel | [Cooked Eel](/wiki/Eel "Eel") | Small Jerky | [Small Jerky](/wiki/Small_Jerky "Small Jerky") |  | 1.0 | Yes |
+| Crabbit | [Crabbit](/wiki/Crabbit "Crabbit") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Shipwrecked icon | 0.5 | Yes |
+| N/A | N/A | Dogfish | [Dead Dogfish](/wiki/Dogfish "Dogfish") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | Jerky | [Jerky](/wiki/Jerky "Jerky") | Shipwrecked icon | 1.0 | Yes |
+| N/A | N/A | Swordfish | [Dead Swordfish](/wiki/Swordfish "Swordfish") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | Jerky | [Jerky](/wiki/Jerky "Jerky") | Shipwrecked icon | N/A | No |
+| N/A | N/A | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | Small Jerky | [Small Jerky](/wiki/Small_Jerky "Small Jerky") | Shipwrecked icon | 0.5 | Yes |
+| Jellyfish | [Jellyfish](/wiki/Jellyfish "Jellyfish") | Jellyfish | [Dead Jellyfish](/wiki/Dead_Jellyfish "Dead Jellyfish") | Cooked Jellyfish | [Cooked Jellyfish](/wiki/Cooked_Jellyfish "Cooked Jellyfish") | Dried Jellyfish | [Dried Jellyfish](/wiki/Dried_Jellyfish "Dried Jellyfish") | Shipwrecked icon | 1.0 | Yes |
+| Limpets | [Limpets](/wiki/Limpets "Limpets") | N/A | N/A | Cooked Limpets | [Cooked Limpets](/wiki/Cooked_Limpets "Cooked Limpets") | N/A | N/A | Shipwrecked icon | 0.5 | Yes |
+| Mussel | [Mussel](/wiki/Mussel "Mussel") | N/A | N/A | Cooked Mussel | [Cooked Mussel](/wiki/Cooked_Mussel "Cooked Mussel") | N/A | N/A | Shipwrecked icon | 0.5 | Yes |
+| N/A | N/A | Neon Quattro | [Neon Quattro](/wiki/Neon_Quattro "Neon Quattro") | Neon Quattro | [Cooked Neon Quattro](/wiki/Cooked_Neon_Quattro "Cooked Neon Quattro") | N/A | N/A | Shipwrecked icon | 1.0 | Yes |
+| N/A | N/A | Pierrot Fish | [Pierrot Fish](/wiki/Pierrot_Fish "Pierrot Fish") | Pierrot Fish | [Cooked Pierrot Fish](/wiki/Cooked_Pierrot_Fish "Cooked Pierrot Fish") | N/A | N/A | Shipwrecked icon | 1.0 | Yes |
+| N/A | N/A | Purple Grouper | [Purple Grouper](/wiki/Purple_Grouper "Purple Grouper") | Purple Grouper | [Cooked Purple Grouper](/wiki/Cooked_Purple_Grouper "Cooked Purple Grouper") | N/A | N/A | Shipwrecked icon | 1.0 | Yes |
+| Rainbow Jellyfish | [Rainbow Jellyfish](/wiki/Rainbow_Jellyfish "Rainbow Jellyfish") | Dead Rainbow Jellyfish | [Dead Rainbow Jellyfish](/wiki/Dead_Rainbow_Jellyfish "Dead Rainbow Jellyfish") | Dead Rainbow Jellyfish | [Cooked Rainbow Jellyfish](/wiki/Cooked_Rainbow_Jellyfish "Cooked Rainbow Jellyfish") | Dried Jellyfish | [Dried Jellyfish](/wiki/Dried_Jellyfish "Dried Jellyfish") | Shipwrecked icon | N/A | No |
+| N/A | N/A | Raw Fish | [Raw Fish](/wiki/Raw_Fish "Raw Fish") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | Jerky | [Jerky](/wiki/Jerky "Jerky") | Shipwrecked icon | 1.0 | Yes |
+| Roe | [Roe](/wiki/Roe "Roe") | N/A | N/A | Roe | [Cooked Roe](/wiki/Cooked_Roe "Cooked Roe") | N/A | N/A | Shipwrecked icon | 1.0 | Yes |
+| N/A | N/A | Shark Fin | [Shark Fin](/wiki/Shark_Fin "Shark Fin") | N/A | N/A | N/A | N/A | Shipwrecked icon | 1.0 | Yes |
+| N/A | N/A | Tropical Fish | [Tropical Fish](/wiki/Tropical_Fish "Tropical Fish") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | Small Jerky | [Small Jerky](/wiki/Small_Jerky "Small Jerky") | Shipwrecked icon | 1.0 / 0.5 Cooked | Yes |
+| Wobster | [Wobster](/wiki/Wobster "Wobster") | Dead Wobster | [Dead Wobster](/wiki/Dead_Wobster "Dead Wobster") | Cooked Wobster | [Cooked Wobster](/wiki/Cooked_Wobster "Cooked Wobster") | N/A | N/A | Shipwrecked icon | 2.0 | Yes (Only living) |
+| Wobster (DST) | [Wobster](/wiki/Wobster "Wobster") | Dead Wobster (DST) | [Dead Wobster](/wiki/Dead_Wobster "Dead Wobster") | Delicious Wobster | [Cooked Wobster](/wiki/Cooked_Wobster "Cooked Wobster") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes (Only living) |
+| Runty Guppy | [Runty Guppy](/wiki/Runty_Guppy "Runty Guppy") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together icon | 0.5 | Yes |
+| Needlenosed Squirt | [Needlenosed Squirt](/wiki/Needlenosed_Squirt "Needlenosed Squirt") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together icon | 0.5 | Yes |
+| Bitty Baitfish | [Bitty Baitfish](/wiki/Bitty_Baitfish "Bitty Baitfish") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together icon | 0.5 | Yes |
+| Smolt Fry | [Smolt Fry](/wiki/Smolt_Fry "Smolt Fry") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together icon | 0.5 | Yes |
+| Scorching Sunfish | [Scorching Sunfish](/wiki/Scorching_Sunfish "Scorching Sunfish") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together icon | 0.5 | Yes |
+| Spittlefish | [Spittlefish](/wiki/Spittlefish "Spittlefish") | Fish Morsel | [Fish Morsel](/wiki/Fish_Morsel "Fish Morsel") | Cooked Fish Morsel | [Cooked Fish Morsel](/wiki/Cooked_Fish_Morsel "Cooked Fish Morsel") | N/A | N/A | Don't Starve Together | 0.5 | Yes |
+| Fallounder | [Fallounder](/wiki/Fallounder "Fallounder") | Leafy Meat | [Leafy Meat](/wiki/Leafy_Meat "Leafy Meat") | Cooked Leafy Meat | [Cooked Leafy Meat](/wiki/Cooked_Leafy_Meat "Cooked Leafy Meat") | N/A | N/A | Don't Starve Together | 0.5 or 0 | Yes |
+| Bloomfin Tuna | [Bloomfin Tuna](/wiki/Bloomfin_Tuna "Bloomfin Tuna") | Leafy Meat | [Leafy Meat](/wiki/Leafy_Meat "Leafy Meat") | Cooked Leafy Meat | [Cooked Leafy Meat](/wiki/Cooked_Leafy_Meat "Cooked Leafy Meat") | N/A | N/A | Don't Starve Together | 0.5 or 0 | Yes |
+| Mudfish | [Mudfish](/wiki/Mudfish "Mudfish") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Deep Bass | [Deep Bass](/wiki/Deep_Bass "Deep Bass") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Dandy Lionfish | [Dandy Lionfish](/wiki/Dandy_Lionfish "Dandy Lionfish") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Black Catfish | [Black Catfish](/wiki/Black_Catfish "Black Catfish") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Ice Bream | [Ice Bream](/wiki/Ice_Bream "Ice Bream") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| N/A | N/A | Barnacles | [Barnacles](/wiki/Barnacles "Barnacles") | Cooked Barnacles | [Cooked Barnacles](/wiki/Cooked_Barnacles "Cooked Barnacles") | N/A | N/A | Don't Starve Together icon | 0.25 | Yes |
+| Dappled Koi | [Dappled Koi](/wiki/Dappled_Koi "Dappled Koi") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Golden Koi | [Golden Koi](/wiki/Golden_Koi "Golden Koi") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together icon | 1.0 | Yes |
+| Sweetish Fish | [Sweetish Fish](/wiki/Sweetish_Fish "Sweetish Fish") | Fish Meat | [Fish Meat](/wiki/Fish_Meat "Fish Meat") | Fish Steak | [Fish Steak](/wiki/Fish_Steak "Fish Steak") | N/A | N/A | Don't Starve Together | 1 | Yes |
+
+*https://static.wikia.nocookie.net/dont-starve-game/images/c/cb/Glommer.png/revision/latest?cb=20231029201751 See also: [Ocean Fishes](/wiki/Ocean_Fishes "Ocean Fishes")*
+
+## Crock Pot Recipes[]
+
+| Food | Name | DLC | Health | Hunger | Sanity | Perish time (days) | Cook time (sec) | Priority | Recipe | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Requirements | Filler Restrictions |
+| Barnacle Linguine | [Barnacle Linguine](/wiki/Barnacle_Linguine "Barnacle Linguine") | Don't Starve Together icon | +10 | +75 | +20 | 6d | 40s | 25 | Barnacle×2 + Vegetables×2.0 |  |
+| Barnacle Nigiri | [Barnacle Nigiri](/wiki/Barnacle_Nigiri "Barnacle Nigiri") | Don't Starve Together icon | +40 | +37.5 | +5 | 10d | 10s | 30 | Barnacle + Kelp Frond + Eggs |  |
+| Barnacle Pita | [Barnacle Pita](/wiki/Barnacle_Pita "Barnacle Pita") | Don't Starve Together icon | +20 | +37.5 | +5 | 15d | 40s | 25 | Barnacle + Vegetables×0.5 |  |
+| Bisque | [Bisque](/wiki/Bisque "Bisque") | Shipwrecked | +60 | +18.75 | +5 | 10d | 20 | 30 | Limpets×3 Ice |  |
+| California Roll | [California Roll](/wiki/California_Roll "California Roll") | ShipwreckedDon't Starve Together icon | +20 | +37.5 | +10 | 10d | 10 | 20 | Seaweed (Kelp FrondDon't Starve Together icon)×2 Fishes×1 |  |
+| Caviar | [Caviar](/wiki/Caviar "Caviar") | Shipwrecked | +3 | +12.5 | +33 | 10d | 40 | 20 | Roe×1 or Roe×3 Vegetables×1 |  |
+| Ceviche | [Ceviche](/wiki/Ceviche "Ceviche") | ShipwreckedDon't Starve Together icon | +20 | +25 | +5 | 10d | 10 | 20 | Fishes×2 Ice |  |
+| Fish Cordon Bleu | [Fish Cordon Bleu](/wiki/Fish_Cordon_Bleu "Fish Cordon Bleu") | Don't Starve Together | +20 | +37.5 | -10 | 8d | 40 | 30 | Frog Legs×2 Fishes×1.0 | No Twigs Cooked in Portable Crock Pot |
+| Moqueca | [Moqueca](/wiki/Moqueca "Moqueca") | Don't Starve Together | +60 | +122.5 | +33 | 8d | 40 | 30 | Fishesx0.25 Onionx1 Toma Rootx1 Fillerx1 | No Inedibles Cooked in Portable Crock Pot |
+| Fish Tacos | [Fish Tacos](/wiki/Fish_Tacos "Fish Tacos") |  | +20 | +37.5 | +5 | 6d | 10 | 10 | Fishes×0.25 Corn×1 |  |
+| Fishsticks | [Fishsticks](/wiki/Fishsticks "Fishsticks") |  | +40 | +37.5 | +5 | 10d | 40 | 10 | Fishes×0.25 Twigs×1 | maximum Twigs×1 |
+| Jelly-O Pop | [Jelly-O Pop](/wiki/Jelly-O_Pop "Jelly-O Pop") | Shipwrecked | +20 | +12.5 | 0 | 3d | 10 | 20 | Jellyfish Ice Twigs |  |
+| Lobster Bisque | [Lobster Bisque](/wiki/Lobster_Bisque "Lobster Bisque") | ShipwreckedShipwrecked | +60 | +25 | +10 | 10d | 10 | 30 | Wobster/Wobster Ice |  |
+| Lobster Dinner | [Lobster Dinner](/wiki/Lobster_Dinner "Lobster Dinner") | ShipwreckedShipwrecked | +60 | +25 | +50 | 10d | 10 | 30 | Wobster/Wobster Butter | no Meats Ice |
+| Mussel Bouillabaise | [Mussel Bouillabaise](/wiki/Mussel_Bouillabaise "Mussel Bouillabaise") | Shipwrecked | +20 | +37.5 | +15 | 10d | 20 | 30 | Mussel×2 Vegetablesx2.0 | Cooked in Portable Crock Pot |
+| Seafood Gumbo | [Seafood Gumbo](/wiki/Seafood_Gumbo "Seafood Gumbo") | ShipwreckedDon't Starve Together icon | +40 | +37.5 | +20 | 10d | 20 | 10 | Fishes×2.25 |  |
+| Shark Fin Soup | [Shark Fin Soup](/wiki/Shark_Fin_Soup "Shark Fin Soup") | Shipwrecked | +40 | +12.5 | -10 | 10d | 10 | 20 | Shark Fin |  |
+| Stuffed Fish Heads | [Stuffed Fish Heads](/wiki/Stuffed_Fish_Heads "Stuffed Fish Heads") | Don't Starve Together icon | +20 | +75 | 0 | 3d | 40s | 25 | Barnacle + Fishes×1.0 |  |
+| Surf 'n' Turf | [Surf 'n' Turf](/wiki/Surf_%27n%27_Turf "Surf 'n' Turf") | ShipwreckedDon't Starve Together icon | +60 | +37.5 | +33 | 10d | 10 | 30 | Meats×2.5 Fishes×1.5 | no Ice |
+| Tropical Bouillabaisse | [Tropical Bouillabaisse](/wiki/Tropical_Bouillabaisse "Tropical Bouillabaisse") | Shipwrecked | +20 | +37.5 | +15 | 10d | 40 | 35 | Purple Grouper×1 Pierrot Fish×1 Neon Quattro×1 Vegetables×1 |  |
+| Unagi | [Unagi](/wiki/Unagi "Unagi") |  | +20 | +18.75 | +5 | 10d | 10 | 20 | Eel×1 Lichen×1 |  |
+
+|  |  |
+| --- | --- |
+| **[Food](/wiki/Food "Food") and Edible Items** [view](/wiki/Template:Food_and_Edible_Items "Template:Food and Edible Items") | |
+| **Meats [Meats](/wiki/Meats "Meats")** | MorselMorselMeatMeatMonster MeatMonster MeatLeafy MeatLeafy MeatDeerclops EyeballDrumstickDrumstickFrog LegsFrog LegsKoalefant TrunkKoalefant Trunk SteakKoalefant TrunkJerkyMonster JerkySmall JerkyBatilisk WingCooked Batilisk WingGuardian's HornNaked NostrilsCharred NostrilsDragoon HeartEye of the Tiger SharkPoison Dartfrog LegsCooked Dartfrog LegsFlytrap Stalk |
+| **Fishes **Fishes**** | FishCooked FishEelCooked EelDead DogfishDead SwordfishFish MorselCooked Fish MorselDead JellyfishCooked JellyfishDried JellyfishLimpetsCooked LimpetsMusselCooked MusselNeon QuattroCooked Neon QuattroPierrot FishCooked Pierrot FishPurple GrouperCooked Purple GrouperDead Rainbow JellyfishCooked Rainbow JellyfishRaw FishFish SteakRoeCooked RoeShark FinTropical FishDead WobsterCooked WobsterDead WobsterDelicious WobsterBarnaclesCooked Barnacles |
+| **linl=Eggs [Eggs](/wiki/Eggs "Eggs")** | EggCooked EggTallbird EggFried Tallbird EggRotten EggDoydoy EggFried Doydoy Egg |
+| **Vegetable [Vegetables](/wiki/Vegetable "Vegetable")** | CarrotRoasted CarrotCornPopcornEggplantBraised EggplantPumpkinHot PumpkinBlue CapCooked Blue CapGreen CapCooked Green CapRed CapCooked Red CapMandrakeCooked MandrakePetalsDark PetalsFoliageLight BulbLichenCactus FleshCooked Cactus FleshCactus FlowerMoon ShroomCooked Moon ShroomSucculentKelp FrondsCooked Kelp FrondsDried Kelp FrondsRipe Stone FruitCooked Stone FruitGarlicRoasted GarlicOnionRoasted OnionPepperRoasted PepperPotatoRoasted PotatoToma RootRoasted Toma RootTillweedsForget-Me-LotsFire Nettle FrondsLune Tree BlossomSeaweedRoasted SeaweedDried SeaweedSweet PotatoCooked Sweet PotatoAloeCooked AloeAsparagusCooked AsparagusRadishCooked Radish |
+| **Fruit [Fruits](/wiki/Fruits "Fruits")** | BerriesBerriesGlow BerryCave BananaCooked Cave BananaDragon FruitPrepared Dragon FruitDurianExtra Smelly DurianPomegranateSliced PomegranateWatermelonGrilled WatermelonJuicy BerriesRoasted Juicy BerriesLesser Glow BerryFigCooked FigCoffee BeansCooked Coffee BeansHalved CoconutRoasted Coconut |
+| **Plant Seeds [Seeds](/wiki/Plant_Seeds "Plant Seeds")** | SeedsSeedsCrop SeedsCrop SeedsCrop SeedsCrop SeedsCrop SeedsCrop SeedsCrop SeedsCrop SeedsBirchnutRoasted BirchnutOblong SeedsClustered SeedsBulbous SeedsBrittle Seed PodsSwirly SeedsWindblown SeedsSharp SeedsSquare SeedsSpiky SeedsFluffy SeedsPointy SeedsLumpy SeedsSeed PodsCrop SeedsCrop SeedsCrop SeedsCrop SeedsSeed PodCooked Seed Pod |
+| **Other** | ButterButterfly WingsHoneyIcePhlegmRotElectric MilkGlommer's GoopMilky WhitesMoon Moth WingsRoyal JellySpoiled FishBile-Covered SlopButterfly WingsBlubberBrainy MatterSpoiled FishSpoiled Fish MorselBean BugsCooked Bean BugsBramble BulbClippingsGummy SlugCooked Gummy SlugMagic WaterNectar |
+| **Event Food** | Gingerbread CookieSugar CookieCandy CaneEternal FruitcakeChocolate Log CakePlum PuddingApple CiderHot CocoaHeavenly EggnogCandy AppleCandy CornCatcoon CandyChoco PigsGhost PopGummy SpiderJelly WormNot-So-Candy CornRaisins"Raisins"Tentacle LolliCandy LiceOtherworldly JawbreakerLava PepperTribute RoastFish Heads on a StickBunny RollMoon CakeMoon JellySkewered PuffsCozy Bunnyman |
+| **Crock Pot [Crock Pot](/wiki/Crock_Pot "Crock Pot")** | Bacon and EggsButter MuffinDragonpieFish TacosFishsticksFist Full of JamFroggle BunwichFruit MedleyHoney HamHoney NuggetsKabobsMandrake SoupMeatballsMeaty StewMonster LasagnaPierogiPowdercakePumpkin CookieRatatouilleStuffed EggplantTaffyTurkey DinnerUnagiWafflesWet GoopTrail MixSpicy ChiliGuacamoleIce CreamMelonsicleFlower SaladBone BouillonJellybeansFrozen Banana DaiquiriBanana ShakeMushy CakeSalsa FrescaStuffed Pepper PoppersBarnacle NigiriBarnacle PitaBreakfast SkilletBunny StewCreamy Potato PuréeFancy Spiralled TubersJelly SaladLeafy MeatloafVeggie BurgerPlain OmeletteBarnacle LinguineBeefy GreensStuffed Fish HeadsTall Scotch EggsMilkmade HatSoothing TeaFiggy FrogwichFigkababFigatoniFig-Stuffed TrunkLobster BisqueWobster DinnerBeefalo TreatsSteamed TwigsCoffeeBanana PopCaviarJelly-O PopShark Fin SoupBisqueCevicheCalifornia RollMussel BouillabaiseSeafood GumboTropical BouillabaisseWobster BisqueSurf 'n' TurfWobster DinnerIced TeaTeaAsparagus SoupNettle RollsSnake Bone SoupSpicy Vegetable StingerHard Shell TacosSteamed Ham SandwichFeijoadaGummy CakeMeated Nettles |
