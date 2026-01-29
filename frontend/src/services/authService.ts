@@ -23,8 +23,14 @@ export const authService = {
       })
 
       if (!response.ok) {
-        const error = await response.json()
-        throw new Error(error.message || '登录失败')
+        // 检查响应是否为JSON
+        const contentType = response.headers.get('content-type')
+        if (contentType && contentType.includes('application/json')) {
+          const error = await response.json()
+          throw new Error(error.message || '登录失败')
+        } else {
+          throw new Error('后端服务未启动或API未实现，请先启动后端服务')
+        }
       }
 
       const data: ApiResponse<LoginResponse> = await response.json()
@@ -40,6 +46,9 @@ export const authService = {
       return data.data
     } catch (error) {
       console.error('Login error:', error)
+      if (error instanceof TypeError && error.message.includes('JSON')) {
+        throw new Error('后端服务未启动或返回格式错误，请检查后端服务')
+      }
       throw error
     }
   },

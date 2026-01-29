@@ -3,7 +3,6 @@ import { ref, onMounted, nextTick, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/authStore'
 import ChatMessage from '../components/ChatMessage.vue'
-import { authService } from '../services/authService'
 
 interface Message {
   role: 'user' | 'ai'
@@ -13,8 +12,6 @@ interface Message {
 
 const router = useRouter()
 const authStore = useAuthStore()
-
-const API_BASE_URL = `${window.location.protocol}//${window.location.host}`
 
 // Reactive state
 const messages = ref<Message[]>([])

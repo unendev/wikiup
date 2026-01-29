@@ -70,7 +70,7 @@ const router = createRouter({
 /**
  * 全局路由守卫 - 权限检查
  */
-router.beforeEach(async (to, from, next) => {
+router.beforeEach(async (to, _from, next) => {
   const authStore = useAuthStore()
 
   // 初始化认证状态（仅在首次加载时）

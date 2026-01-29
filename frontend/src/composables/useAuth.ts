@@ -1,6 +1,5 @@
 import { computed } from 'vue'
 import { useAuthStore } from '../stores/authStore'
-import type { UserRole } from '../types/auth'
 
 /**
  * 认证相关的组合式函数

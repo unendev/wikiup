@@ -1,11 +1,13 @@
 /**
  * 用户角色枚举
  */
-export enum UserRole {
-  ADMIN = 'ADMIN',
-  USER = 'USER',
-  GUEST = 'GUEST'
-}
+export const UserRole = {
+  ADMIN: 'ADMIN',
+  USER: 'USER',
+  GUEST: 'GUEST'
+} as const
+
+export type UserRole = typeof UserRole[keyof typeof UserRole]
 
 /**
  * 用户信息接口
