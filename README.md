@@ -154,7 +154,14 @@ npm run dev
 mysql -u root -p wikiup < backend/init.sql
 ```
 
-2. 默认管理员账号
+2. 准备知识库数据
+知识库数据文件不包含在 Git 仓库中。请将饥荒游戏的 Markdown 知识库文件放置在：
+```
+backend/data/dst/
+```
+目录中。系统启动时会自动加载这些文件到向量数据库。
+
+3. 默认管理员账号
 - 用户名：`admin`
 - 密码：`admin123`
 
