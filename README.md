@@ -1,85 +1,85 @@
-# RAG Service
+# RAG 智能问答服务
 
-A full-stack Retrieval-Augmented Generation (RAG) service with real-time chat capabilities, user authentication, and vector similarity search.
+一个全栈的检索增强生成（RAG）服务，具备实时聊天、用户认证和向量相似度搜索功能。
 
-## Features
+## 功能特性
 
-- 🔐 **User Authentication** - JWT-based authentication with Spring Security
-- 💬 **Real-time Chat** - WebSocket-powered chat interface
-- 🤖 **RAG System** - Intelligent question answering using ChromaDB and DJL
-- 👥 **User Management** - Admin panel for system administration
-- 🔍 **Vector Search** - Semantic search with ChromaDB vector database
-- 📱 **Responsive UI** - Modern interface built with Vue 3 and Tailwind CSS
+- 🔐 **用户认证** - 基于 JWT 的身份验证，集成 Spring Security
+- 💬 **实时聊天** - WebSocket 驱动的聊天界面
+- 🤖 **RAG 系统** - 使用 ChromaDB 和 DJL 的智能问答
+- 👥 **用户管理** - 系统管理员面板
+- 🔍 **向量搜索** - 基于 ChromaDB 的语义搜索
+- 📱 **响应式界面** - 使用 Vue 3 和 Tailwind CSS 构建的现代化界面
 
-## Tech Stack
+## 技术栈
 
-### Backend
+### 后端
 - Spring Boot 2.7.18
 - Java 8
 - MySQL + JPA/Hibernate
-- JWT Authentication
-- ChromaDB (Vector Database)
-- Deep Java Library (DJL) with PyTorch
+- JWT 身份验证
+- ChromaDB（向量数据库）
+- Deep Java Library (DJL) + PyTorch
 - WebSocket (STOMP)
 
-### Frontend
-- Vue 3 (Composition API)
+### 前端
+- Vue 3（组合式 API）
 - TypeScript
 - Vite
 - Tailwind CSS
-- Pinia (State Management)
+- Pinia（状态管理）
 - Vue Router
 - Axios
 
-## Prerequisites
+## 环境要求
 
-- **Java**: JDK 8 or higher
+- **Java**: JDK 8 或更高版本
 - **Maven**: 3.6+
 - **Node.js**: 18+
 - **MySQL**: 8.0+
-- **ChromaDB**: Running instance
+- **ChromaDB**: 运行中的实例
 
-## Quick Start
+## 快速开始
 
-### 1. Database Setup
+### 1. 数据库设置
 
 ```bash
-# Create database and run initialization script
+# 创建数据库并运行初始化脚本
 mysql -u root -p < backend/init.sql
 ```
 
-### 2. Backend Setup
+### 2. 后端设置
 
 ```bash
 cd backend
 
-# Configure environment variables
-# Copy .env.example to .env and update values
-# Required: database credentials, JWT secret, ChromaDB URL
+# 配置环境变量
+# 复制 .env.example 为 .env 并更新配置
+# 必需配置：数据库凭据、JWT 密钥、ChromaDB URL
 
-# Run the application
+# 运行应用
 mvnw spring-boot:run
 ```
 
-Backend will start on `http://localhost:8080`
+后端将在 `http://localhost:8080` 启动
 
-### 3. Frontend Setup
+### 3. 前端设置
 
 ```bash
 cd frontend
 
-# Install dependencies
+# 安装依赖
 npm install
 
-# Start development server
+# 启动开发服务器
 npm run dev
 ```
 
-Frontend will start on `http://localhost:5173`
+前端将在 `http://localhost:5173` 启动
 
-## Environment Configuration
+## 环境配置
 
-### Backend (.env)
+### 后端 (.env)
 ```properties
 SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/ragdb
 SPRING_DATASOURCE_USERNAME=your_username
@@ -89,127 +89,127 @@ JWT_EXPIRATION=86400000
 CHROMA_DB_URL=http://localhost:8000
 ```
 
-### Frontend (.env)
+### 前端 (.env)
 ```properties
 VITE_API_BASE_URL=http://localhost:8080
 ```
 
-## Project Structure
+## 项目结构
 
 ```
-├── backend/                 # Spring Boot application
-│   ├── src/main/java/      # Java source code
+├── backend/                 # Spring Boot 应用
+│   ├── src/main/java/      # Java 源代码
 │   │   └── com/example/ragservice/
-│   │       ├── config/     # Configuration classes
-│   │       ├── controller/ # REST controllers
-│   │       ├── service/    # Business logic
-│   │       ├── repository/ # Data access layer
-│   │       ├── model/      # Entity classes
-│   │       ├── dto/        # Data Transfer Objects
-│   │       └── security/   # Security configuration
+│   │       ├── config/     # 配置类
+│   │       ├── controller/ # REST 控制器
+│   │       ├── service/    # 业务逻辑
+│   │       ├── repository/ # 数据访问层
+│   │       ├── model/      # 实体类
+│   │       ├── dto/        # 数据传输对象
+│   │       └── security/   # 安全配置
 │   ├── src/main/resources/
 │   │   └── application.properties
 │   └── pom.xml
 │
-└── frontend/               # Vue 3 application
+└── frontend/               # Vue 3 应用
     ├── src/
-    │   ├── components/     # Reusable components
-    │   ├── views/          # Page components
-    │   ├── router/         # Route configuration
-    │   ├── stores/         # Pinia stores
-    │   ├── services/       # API services
-    │   ├── composables/    # Composition utilities
-    │   └── types/          # TypeScript types
+    │   ├── components/     # 可复用组件
+    │   ├── views/          # 页面组件
+    │   ├── router/         # 路由配置
+    │   ├── stores/         # Pinia 状态管理
+    │   ├── services/       # API 服务
+    │   ├── composables/    # 组合式工具函数
+    │   └── types/          # TypeScript 类型定义
     └── package.json
 ```
 
-## Development
+## 开发指南
 
-### Backend Development
+### 后端开发
 ```bash
 cd backend
 mvnw spring-boot:run
 ```
 
-### Frontend Development
+### 前端开发
 ```bash
 cd frontend
 npm run dev
 ```
 
-### Build for Production
+### 生产环境构建
 
-**Backend:**
+**后端：**
 ```bash
 cd backend
 mvnw clean package -DskipTests
-# Output: target/rag-service-0.0.1-SNAPSHOT.jar
+# 输出：target/rag-service-0.0.1-SNAPSHOT.jar
 ```
 
-**Frontend:**
+**前端：**
 ```bash
 cd frontend
 npm run build
-# Output: dist/
+# 输出：dist/
 ```
 
-## API Endpoints
+## API 接口
 
-### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/refresh` - Refresh JWT token
+### 认证相关
+- `POST /api/auth/register` - 用户注册
+- `POST /api/auth/login` - 用户登录
+- `POST /api/auth/refresh` - 刷新 JWT 令牌
 
-### Chat
-- `POST /api/chat/message` - Send chat message
-- `GET /api/chat/history` - Get chat history
-- `WS /ws` - WebSocket connection
+### 聊天相关
+- `POST /api/chat/message` - 发送聊天消息
+- `GET /api/chat/history` - 获取聊天历史
+- `WS /ws` - WebSocket 连接
 
-### Admin
-- `GET /api/admin/users` - List all users (admin only)
-- `DELETE /api/admin/users/{id}` - Delete user (admin only)
+### 管理员相关
+- `GET /api/admin/users` - 列出所有用户（仅管理员）
+- `DELETE /api/admin/users/{id}` - 删除用户（仅管理员）
 
-## Testing
+## 测试
 
-### Backend Tests
+### 后端测试
 ```bash
 cd backend
 mvnw test
 ```
 
-### Frontend Tests
+### 前端测试
 ```bash
 cd frontend
 npm run test
 ```
 
-## Deployment
+## 部署
 
-See [deployment.md](.kiro/steering/deployment.md) for detailed deployment instructions including:
-- Production build process
-- Nginx configuration
-- Systemd service setup
-- Security checklist
+详细的部署说明请参考 [deployment.md](.kiro/steering/deployment.md)，包括：
+- 生产环境构建流程
+- Nginx 配置
+- Systemd 服务设置
+- 安全检查清单
 
-## Development Guidelines
+## 开发规范
 
-- **Backend Standards**: See [backend-standards.md](.kiro/steering/backend-standards.md)
-- **Frontend Standards**: See [frontend-standards.md](.kiro/steering/frontend-standards.md)
-- **Git Workflow**: See [git-workflow.md](.kiro/steering/git-workflow.md)
-- **Testing Standards**: See [testing-standards.md](.kiro/steering/testing-standards.md)
+- **后端规范**：参考 [backend-standards.md](.kiro/steering/backend-standards.md)
+- **前端规范**：参考 [frontend-standards.md](.kiro/steering/frontend-standards.md)
+- **Git 工作流**：参考 [git-workflow.md](.kiro/steering/git-workflow.md)
+- **测试规范**：参考 [testing-standards.md](.kiro/steering/testing-standards.md)
 
-## Contributing
+## 贡献指南
 
-1. Create a feature branch from `develop`
-2. Follow the coding standards in `.kiro/steering/`
-3. Write tests for new features
-4. Submit a pull request with clear description
-5. Ensure all tests pass and code builds successfully
+1. 从 `develop` 分支创建功能分支
+2. 遵循 `.kiro/steering/` 中的编码规范
+3. 为新功能编写测试
+4. 提交带有清晰描述的 Pull Request
+5. 确保所有测试通过且代码构建成功
 
-## License
+## 许可证
 
-[Your License Here]
+[在此添加许可证信息]
 
-## Support
+## 支持
 
-For issues and questions, please open an issue in the repository.
+如有问题或疑问，请在仓库中提交 issue。
