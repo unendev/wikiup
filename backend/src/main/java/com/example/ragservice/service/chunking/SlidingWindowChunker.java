@@ -39,7 +39,7 @@ public class SlidingWindowChunker implements TextChunker {
             return new ArrayList<>();
         }
         
-        List<Chunk> chunks = chunk(document.getContent(), document.getId());
+        List<Chunk> chunks = chunk(document.getContent(), document.getDocId());
         
         // 从文档继承元数据
         for (Chunk chunk : chunks) {

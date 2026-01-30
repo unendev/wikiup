@@ -69,12 +69,19 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     /**
      * 从请求中解析JWT令牌
+     * 首先尝试从Authorization头中获取，如果失败，则尝试从URL查询参数中获取
      */
     private String parseJwt(HttpServletRequest request) {
+        // 1. 从Authorization头中获取
         String headerAuth = request.getHeader("Authorization");
-
         if (StringUtils.hasText(headerAuth) && headerAuth.startsWith("Bearer ")) {
             return headerAuth.substring(7);
+        }
+
+        // 2. 如果头中没有，从URL查询参数中获取 (用于WebSocket认证)
+        String tokenParam = request.getParameter("token");
+        if (StringUtils.hasText(tokenParam)) {
+            return tokenParam;
         }
 
         return null;

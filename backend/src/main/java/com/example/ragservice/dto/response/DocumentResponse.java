@@ -31,7 +31,7 @@ public class DocumentResponse {
         }
         
         DocumentResponse response = new DocumentResponse();
-        response.setId(document.getId());
+        response.setId(document.getDocId());
         response.setTitle(document.getTitle());
         response.setSource(document.getSource());
         response.setPath(document.getPath());

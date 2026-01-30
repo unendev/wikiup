@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -32,8 +33,9 @@ public class DefaultRAGService implements RAGService {
     private int topK = 5;
     
     @Override
-    public Mono<ChatResponse> getAnswer(String question) {
-        logger.info("Processing question: {}", question);
+    public Mono<ChatResponse> getAnswer(String question, Principal principal) {
+        String username = (principal != null) ? principal.getName() : "anonymous";
+        logger.info("Processing question from user '{}': {}", username, question);
         
         return Mono.fromCallable(() -> {
             // 1. 生成问题的嵌入向量
@@ -61,12 +63,21 @@ public class DefaultRAGService implements RAGService {
             
             long processingTime = System.currentTimeMillis() - startTime;
             
-            // 5. 构建响应（包含评分信息）
+            // 5. 构建响应（包含评分信息和内容）
             ChatResponse response = new ChatResponse(answer);
             response.setProcessingTimeMs(processingTime);
             
             for (VectorDBService.SearchResult result : searchResults) {
-                response.addSource(result.metadata(), result.score());
+                response.addSource(result.metadata(), result.score(), result.text());
+            }
+            
+            // 调试：打印sources信息
+            logger.info("Response sources count: {}", response.getSources().size());
+            for (ChatResponse.SourceInfo source : response.getSources()) {
+                logger.info("Source - title: {}, content length: {}, score: {}", 
+                    source.getTitle(), 
+                    source.getContent() != null ? source.getContent().length() : 0,
+                    source.getScore());
             }
             
             return response;
@@ -74,9 +85,10 @@ public class DefaultRAGService implements RAGService {
     }
     
     @Override
-    public void getAnswerStream(String question, Consumer<String> onChunk, Consumer<List<ChatResponse.SourceInfo>> onComplete, Consumer<Throwable> onError) {
+    public void getAnswerStream(String question, Principal principal, Consumer<String> onChunk, Consumer<List<ChatResponse.SourceInfo>> onComplete, Consumer<Throwable> onError) {
         try {
-            logger.info("Processing streaming question: {}", question);
+            String username = (principal != null) ? principal.getName() : "anonymous";
+            logger.info("Processing streaming question from user '{}': {}", username, question);
             
             // 1. 生成问题的嵌入向量
             float[] queryVector = embeddingService.embed(question);
@@ -99,6 +111,7 @@ public class DefaultRAGService implements RAGService {
                 sourceInfo.setSource(result.metadata().getOrDefault("source", "未知来源"));
                 sourceInfo.setPath(result.metadata().getOrDefault("path", ""));
                 sourceInfo.setScore(result.score());
+                sourceInfo.setContent(result.text());
                 sources.add(sourceInfo);
             }
             

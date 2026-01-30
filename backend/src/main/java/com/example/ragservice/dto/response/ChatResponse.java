@@ -32,11 +32,19 @@ public class ChatResponse {
      * 添加来源信息（包含评分）
      */
     public void addSource(String title, String source, String path, Double score) {
+        addSource(title, source, path, score, null);
+    }
+    
+    /**
+     * 添加来源信息（包含评分和内容）
+     */
+    public void addSource(String title, String source, String path, Double score, String content) {
         SourceInfo sourceInfo = new SourceInfo();
         sourceInfo.setTitle(title);
         sourceInfo.setSource(source);
         sourceInfo.setPath(path);
         sourceInfo.setScore(score);
+        sourceInfo.setContent(content);
         this.sources.add(sourceInfo);
     }
     
@@ -44,13 +52,20 @@ public class ChatResponse {
      * 从元数据映射添加来源信息
      */
     public void addSource(Map<String, String> metadata) {
-        addSource(metadata, null);
+        addSource(metadata, null, null);
     }
     
     /**
      * 从元数据映射添加来源信息（包含评分）
      */
     public void addSource(Map<String, String> metadata, Double score) {
+        addSource(metadata, score, null);
+    }
+    
+    /**
+     * 从元数据映射添加来源信息（包含评分和内容）
+     */
+    public void addSource(Map<String, String> metadata, Double score, String content) {
         if (metadata == null) {
             return;
         }
@@ -59,7 +74,7 @@ public class ChatResponse {
         String source = metadata.getOrDefault("source", "未知来源");
         String path = metadata.getOrDefault("path", "");
         
-        addSource(title, source, path, score);
+        addSource(title, source, path, score, content);
     }
     
     /**
@@ -110,6 +125,7 @@ public class ChatResponse {
         private String source;
         private String path;
         private Double score;  // 相似度评分
+        private String content;  // 文档内容
         
         public String getTitle() {
             return title;
@@ -141,6 +157,14 @@ public class ChatResponse {
         
         public void setScore(Double score) {
             this.score = score;
+        }
+        
+        public String getContent() {
+            return content;
+        }
+        
+        public void setContent(String content) {
+            this.content = content;
         }
     }
 } 

@@ -27,7 +27,7 @@ public interface JpaChunkRepository extends JpaRepository<Chunk, Long> {
     /**
      * 根据文档ID查找所有块
      */
-    List<Chunk> findByDocumentId(Long documentId);
+    List<Chunk> findByDocument_Id(Long documentId);
     
     /**
      * 根据文档和索引查找块

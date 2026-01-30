@@ -66,6 +66,21 @@ public class Chunk {
     }
     
     /**
+     * 使用documentId创建文档块（当只有ID时使用）
+     * @param documentId 文档ID字符串
+     * @param text 文本内容
+     * @param index 索引顺序
+     * @return 文档块对象
+     */
+    public static Chunk of(String documentId, String text, int index) {
+        Chunk chunk = new Chunk();
+        chunk.setChunkId(documentId + "-chunk-" + index);
+        chunk.setText(text);
+        chunk.setIndex(index);
+        return chunk;
+    }
+    
+    /**
      * 添加元数据
      */
     public void addMetadata(String key, String value) {

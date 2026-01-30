@@ -22,7 +22,7 @@ public class DocumentEventListener {
     
     @EventListener
     public void handleDocumentCreatedEvent(DocumentCreatedEvent event) {
-        String documentId = event.getDocument().getId();
+        String documentId = event.getDocument().getDocId();
         String documentTitle = event.getDocument().getTitle();
         
         logger.info("Document created: {} ({})", documentTitle, documentId);
@@ -39,7 +39,7 @@ public class DocumentEventListener {
     
     @EventListener
     public void handleDocumentProcessingEvent(DocumentProcessingEvent event) {
-        String documentId = event.getDocument().getId();
+        String documentId = event.getDocument().getDocId();
         String documentTitle = event.getDocument().getTitle();
         String stage = event.getStage();
         float progress = event.getProgress();
@@ -55,7 +55,7 @@ public class DocumentEventListener {
     
     @EventListener
     public void handleDocumentCompletedEvent(DocumentCompletedEvent event) {
-        String documentId = event.getDocument().getId();
+        String documentId = event.getDocument().getDocId();
         String documentTitle = event.getDocument().getTitle();
         boolean success = event.isSuccess();
         String message = event.getMessage();
@@ -73,7 +73,7 @@ public class DocumentEventListener {
     
     @EventListener
     public void handleDocumentErrorEvent(DocumentErrorEvent event) {
-        String documentId = event.getDocument().getId();
+        String documentId = event.getDocument().getDocId();
         String documentTitle = event.getDocument().getTitle();
         String errorCode = event.getErrorCode();
         String errorMessage = event.getErrorMessage();

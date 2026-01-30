@@ -1,6 +1,8 @@
 
 package com.example.ragservice.endpoint;
 
+import com.example.ragservice.config.WebSocketConfig;
+
 import javax.websocket.OnClose;
 import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
@@ -18,13 +20,14 @@ import com.example.ragservice.dto.response.ChatResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
+import java.security.Principal;
 import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
 
 @Component
-@ServerEndpoint("/api/v1/qa/ask")
+@ServerEndpoint(value = "/api/v1/qa/ask", configurator = WebSocketConfig.SecurityAwareServerEndpointConfigurator.class)
 public class ChatEndpoint {
 
     private static final Logger log = LoggerFactory.getLogger(ChatEndpoint.class);
@@ -42,12 +45,25 @@ public class ChatEndpoint {
     @OnOpen
     public void onOpen(Session session) {
         sessions.add(session);
-        log.info("New session opened: {}", session.getId());
+        Principal principal = session.getUserPrincipal();
+        if (principal != null) {
+            log.info("New session opened for user {}: {}", principal.getName(), session.getId());
+        } else {
+            log.info("New anonymous session opened: {}", session.getId());
+        }
     }
 
     @OnMessage
     public void onMessage(String message, Session session) throws IOException {
-        log.info("Message from {}: {}", session.getId(), message);
+        Principal principal = session.getUserPrincipal();
+        if (principal == null) {
+            log.warn("Received message from unauthenticated session {}: {}", session.getId(), message);
+            // Optionally, close the session or send an error
+            session.getBasicRemote().sendText("{\"type\":\"error\",\"message\":\"Authentication required.\"}");
+            session.close();
+            return;
+        }
+        log.info("Message from user '{}' (session {}): {}", principal.getName(), session.getId(), message);
         
         try {
             // 解析消息，检查是否请求流式响应
@@ -70,6 +86,7 @@ public class ChatEndpoint {
                 // 使用流式处理
                 ragService.getAnswerStream(
                     question,
+                    principal,
                     // 每个响应块的处理
                     chunk -> {
                         try {
@@ -100,6 +117,9 @@ public class ChatEndpoint {
                                 if (source.getScore() != null) {
                                     sourceNode.put("score", source.getScore());
                                 }
+                                if (source.getContent() != null) {
+                                    sourceNode.put("content", source.getContent());
+                                }
                                 sourcesArray.add(sourceNode);
                             }
                             
@@ -125,7 +145,7 @@ public class ChatEndpoint {
                 );
             } else {
                 // 使用非流式处理
-                ragService.getAnswer(question).subscribe(answer -> {
+                ragService.getAnswer(question, principal).subscribe(answer -> {
                     try {
                         // 创建响应JSON，包含答案和来源信息
                         ObjectNode responseJson = objectMapper.createObjectNode()
@@ -141,6 +161,9 @@ public class ChatEndpoint {
                             sourceNode.put("path", source.getPath());
                             if (source.getScore() != null) {
                                 sourceNode.put("score", source.getScore());
+                            }
+                            if (source.getContent() != null) {
+                                sourceNode.put("content", source.getContent());
                             }
                             sourcesArray.add(sourceNode);
                         }
@@ -185,4 +208,4 @@ public class ChatEndpoint {
         sessions.remove(session);
         log.info("Session closed: {}", session.getId());
     }
-} 
+}

@@ -37,7 +37,7 @@ public class DocumentEventTest {
     public void testDocumentCreatedEvent() {
         // 创建测试文档
         Document document = new Document();
-        document.setId("test-doc-1");
+        document.setDocId("test-doc-1");
         document.setTitle("测试文档");
         
         // 发布文档创建事件
@@ -51,7 +51,7 @@ public class DocumentEventTest {
     public void testDocumentProcessingEvent() {
         // 创建测试文档
         Document document = new Document();
-        document.setId("test-doc-2");
+        document.setDocId("test-doc-2");
         document.setTitle("测试文档");
         
         // 发布文档处理事件
@@ -65,7 +65,7 @@ public class DocumentEventTest {
     public void testDocumentCompletedEvent() {
         // 创建测试文档
         Document document = new Document();
-        document.setId("test-doc-3");
+        document.setDocId("test-doc-3");
         document.setTitle("测试文档");
         
         // 发布文档完成事件
@@ -79,7 +79,7 @@ public class DocumentEventTest {
     public void testDocumentErrorEvent() {
         // 创建测试文档
         Document document = new Document();
-        document.setId("test-doc-4");
+        document.setDocId("test-doc-4");
         document.setTitle("测试文档");
         
         // 发布文档错误事件
@@ -94,7 +94,7 @@ public class DocumentEventTest {
     public void testEventProperties() {
         // 创建测试文档
         Document document = new Document();
-        document.setId("test-doc-5");
+        document.setDocId("test-doc-5");
         document.setTitle("测试文档");
         
         // 发布文档处理事件

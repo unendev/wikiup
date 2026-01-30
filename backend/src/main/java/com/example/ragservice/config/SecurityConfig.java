@@ -159,8 +159,6 @@ public class SecurityConfig {
             .antMatchers("/api/auth/**", "/health/**").permitAll()
             // 允许所有人访问公共测试接口
             .antMatchers("/api/test/all").permitAll()
-            // 允许Websocket连接
-            .antMatchers("/api/v1/qa/ask").permitAll()
             // 对于其他请求，需要认证
             .anyRequest().authenticated();
             
