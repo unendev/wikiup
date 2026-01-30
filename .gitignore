@@ -31,6 +31,19 @@
 /project_status.md
 /rubbish/
 
+# Ignore all markdown files in root except README.md
+/*.md
+!README.md
+
+# Ignore temporary/test files
+/test*.html
+/test*.md
+/gemini-*.json
+/*_COMPLETION_REPORT.txt
+/*_SUMMARY.txt
+/*_AUTH*.txt
+/*_AUTH*.md
+
 # OS generated files
 .DS_Store
 Thumbs.db
